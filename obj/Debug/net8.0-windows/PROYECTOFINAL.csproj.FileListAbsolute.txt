@@ -1,0 +1,17 @@
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\bin\Debug\net8.0-windows\PROYECTOFINAL.exe
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\bin\Debug\net8.0-windows\PROYECTOFINAL.deps.json
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\bin\Debug\net8.0-windows\PROYECTOFINAL.runtimeconfig.json
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\bin\Debug\net8.0-windows\PROYECTOFINAL.dll
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\bin\Debug\net8.0-windows\PROYECTOFINAL.pdb
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\obj\Debug\net8.0-windows\PROYECTOFINAL.Form1.resources
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\obj\Debug\net8.0-windows\PROYECTOFINAL.csproj.GenerateResource.cache
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\obj\Debug\net8.0-windows\PROYECTOFINAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\obj\Debug\net8.0-windows\PROYECTOFINAL.AssemblyInfoInputs.cache
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\obj\Debug\net8.0-windows\PROYECTOFINAL.AssemblyInfo.cs
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\obj\Debug\net8.0-windows\PROYECTOFINAL.csproj.CoreCompileInputs.cache
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\obj\Debug\net8.0-windows\PROYECTOFINAL.sourcelink.json
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\obj\Debug\net8.0-windows\PROYECTOFINAL.dll
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\obj\Debug\net8.0-windows\refint\PROYECTOFINAL.dll
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\obj\Debug\net8.0-windows\PROYECTOFINAL.pdb
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\obj\Debug\net8.0-windows\PROYECTOFINAL.genruntimeconfig.cache
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\PROYECTOFINAL\obj\Debug\net8.0-windows\ref\PROYECTOFINAL.dll

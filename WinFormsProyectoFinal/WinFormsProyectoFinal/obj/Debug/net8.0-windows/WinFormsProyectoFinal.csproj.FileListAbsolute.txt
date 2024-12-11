@@ -1,0 +1,17 @@
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\WinFormsProyectoFinal.exe
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\WinFormsProyectoFinal.deps.json
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\WinFormsProyectoFinal.runtimeconfig.json
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\WinFormsProyectoFinal.dll
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\WinFormsProyectoFinal.pdb
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.Form1.resources
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.csproj.GenerateResource.cache
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.GeneratedMSBuildEditorConfig.editorconfig
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.AssemblyInfoInputs.cache
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.AssemblyInfo.cs
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.csproj.CoreCompileInputs.cache
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.dll
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\refint\WinFormsProyectoFinal.dll
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.pdb
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.genruntimeconfig.cache
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\ref\WinFormsProyectoFinal.dll
+D:\3erSemestre\PruebasProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.Properties.Resources.resources

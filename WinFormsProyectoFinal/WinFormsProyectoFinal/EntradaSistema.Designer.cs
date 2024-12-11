@@ -1,14 +1,14 @@
 ﻿namespace WinFormsProyectoFinal
 {
-    partial class Form1
+    partial class EntradaSistema
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,11 +23,12 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
+            panel1 = new Panel();
             panelMenuLateral = new Panel();
             btnSalir = new Button();
             panelUsuarios = new Panel();
@@ -39,28 +40,24 @@
             button3 = new Button();
             btnAdmin = new Button();
             btnUsuarios = new Button();
-            panelLogo = new Panel();
             pictureBox1 = new PictureBox();
-            panelImagenGrande = new Panel();
-            label3 = new Label();
-            labelCarrera = new Label();
-            label2 = new Label();
-            pictureBox3 = new PictureBox();
-            label1 = new Label();
-            labelFecha = new Label();
-            labelEmiliano = new Label();
-            labelErnesto = new Label();
-            labelJesus = new Label();
-            labelJose = new Label();
-            pictureBox2 = new PictureBox();
+            panel1.SuspendLayout();
             panelMenuLateral.SuspendLayout();
             panelUsuarios.SuspendLayout();
-            panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panelImagenGrande.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.AutoScroll = true;
+            panel1.AutoSize = true;
+            panel1.BackColor = Color.Gray;
+            panel1.Controls.Add(panelMenuLateral);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Location = new Point(3, -1);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1229, 610);
+            panel1.TabIndex = 0;
             // 
             // panelMenuLateral
             // 
@@ -68,12 +65,11 @@
             panelMenuLateral.Controls.Add(btnSalir);
             panelMenuLateral.Controls.Add(panelUsuarios);
             panelMenuLateral.Controls.Add(btnUsuarios);
-            panelMenuLateral.Controls.Add(panelLogo);
             panelMenuLateral.Dock = DockStyle.Left;
             panelMenuLateral.Location = new Point(0, 0);
             panelMenuLateral.Name = "panelMenuLateral";
-            panelMenuLateral.Size = new Size(250, 597);
-            panelMenuLateral.TabIndex = 0;
+            panelMenuLateral.Size = new Size(250, 610);
+            panelMenuLateral.TabIndex = 1;
             // 
             // btnSalir
             // 
@@ -83,17 +79,17 @@
             btnSalir.FlatAppearance.MouseDownBackColor = Color.Gray;
             btnSalir.FlatAppearance.MouseOverBackColor = Color.Silver;
             btnSalir.FlatStyle = FlatStyle.Flat;
-            btnSalir.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSalir.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSalir.ForeColor = Color.White;
-            btnSalir.Location = new Point(0, 547);
+            btnSalir.Location = new Point(0, 561);
             btnSalir.Name = "btnSalir";
             btnSalir.Padding = new Padding(10, 0, 0, 0);
-            btnSalir.Size = new Size(250, 50);
+            btnSalir.Size = new Size(250, 49);
             btnSalir.TabIndex = 3;
-            btnSalir.Text = "Salir";
+            btnSalir.Text = "Regresar";
             btnSalir.TextAlign = ContentAlignment.MiddleLeft;
             btnSalir.UseVisualStyleBackColor = false;
-            btnSalir.Click += btnSalir_Click;
+            btnSalir.Click += this.btnSalir_Click;
             // 
             // panelUsuarios
             // 
@@ -106,9 +102,9 @@
             panelUsuarios.Controls.Add(button3);
             panelUsuarios.Controls.Add(btnAdmin);
             panelUsuarios.Dock = DockStyle.Top;
-            panelUsuarios.Location = new Point(0, 175);
+            panelUsuarios.Location = new Point(0, 50);
             panelUsuarios.Name = "panelUsuarios";
-            panelUsuarios.Size = new Size(250, 291);
+            panelUsuarios.Size = new Size(250, 276);
             panelUsuarios.TabIndex = 2;
             // 
             // button2
@@ -254,7 +250,7 @@
             btnUsuarios.FlatStyle = FlatStyle.Flat;
             btnUsuarios.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnUsuarios.ForeColor = Color.White;
-            btnUsuarios.Location = new Point(0, 125);
+            btnUsuarios.Location = new Point(0, 0);
             btnUsuarios.Name = "btnUsuarios";
             btnUsuarios.Padding = new Padding(10, 0, 0, 0);
             btnUsuarios.Size = new Size(250, 50);
@@ -264,215 +260,45 @@
             btnUsuarios.UseVisualStyleBackColor = false;
             btnUsuarios.Click += btnUsuarios_Click;
             // 
-            // panelLogo
-            // 
-            panelLogo.BackColor = SystemColors.ActiveCaptionText;
-            panelLogo.Controls.Add(pictureBox1);
-            panelLogo.Dock = DockStyle.Top;
-            panelLogo.Location = new Point(0, 0);
-            panelLogo.Name = "panelLogo";
-            panelLogo.Size = new Size(250, 125);
-            panelLogo.TabIndex = 0;
-            // 
             // pictureBox1
             // 
-            pictureBox1.Dock = DockStyle.Fill;
             pictureBox1.Image = Properties.Resources.LogoOfficetemas;
-            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Location = new Point(358, 13);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(250, 125);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.Size = new Size(491, 219);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // panelImagenGrande
-            // 
-            panelImagenGrande.BackColor = Color.Gray;
-            panelImagenGrande.Controls.Add(label3);
-            panelImagenGrande.Controls.Add(labelCarrera);
-            panelImagenGrande.Controls.Add(label2);
-            panelImagenGrande.Controls.Add(pictureBox3);
-            panelImagenGrande.Controls.Add(label1);
-            panelImagenGrande.Controls.Add(labelFecha);
-            panelImagenGrande.Controls.Add(labelEmiliano);
-            panelImagenGrande.Controls.Add(labelErnesto);
-            panelImagenGrande.Controls.Add(labelJesus);
-            panelImagenGrande.Controls.Add(labelJose);
-            panelImagenGrande.Controls.Add(pictureBox2);
-            panelImagenGrande.Dock = DockStyle.Fill;
-            panelImagenGrande.Location = new Point(250, 0);
-            panelImagenGrande.Name = "panelImagenGrande";
-            panelImagenGrande.Size = new Size(828, 597);
-            panelImagenGrande.TabIndex = 1;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Lucida Calligraphy", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.SpringGreen;
-            label3.Location = new Point(134, 295);
-            label3.Name = "label3";
-            label3.Size = new Size(556, 88);
-            label3.TabIndex = 10;
-            label3.Text = "\"Con Officetemas, \r\ntus ideas no tienen dilemas.\"\r\n";
-            // 
-            // labelCarrera
-            // 
-            labelCarrera.AutoSize = true;
-            labelCarrera.Font = new Font("Tahoma", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelCarrera.ForeColor = Color.White;
-            labelCarrera.Location = new Point(447, 455);
-            labelCarrera.Name = "labelCarrera";
-            labelCarrera.Size = new Size(378, 28);
-            labelCarrera.TabIndex = 9;
-            labelCarrera.Text = "Ing. Sistemas Computacionales\r\n";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(492, 497);
-            label2.Name = "label2";
-            label2.Size = new Size(310, 24);
-            label2.TabIndex = 8;
-            label2.Text = "Dra. Georgina Salazar Partida";
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Image = Properties.Resources.LogoOfficetemas;
-            pictureBox3.Location = new Point(155, 34);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(467, 250);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 7;
-            pictureBox3.TabStop = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Tahoma", 10.2F, FontStyle.Bold);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(20, 545);
-            label1.Name = "label1";
-            label1.Size = new Size(343, 21);
-            label1.TabIndex = 6;
-            label1.Text = "Juan Carlos Uriarte Padilla 281537 3°B";
-            // 
-            // labelFecha
-            // 
-            labelFecha.AutoSize = true;
-            labelFecha.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelFecha.ForeColor = Color.White;
-            labelFecha.Location = new Point(707, 575);
-            labelFecha.Name = "labelFecha";
-            labelFecha.Size = new Size(118, 21);
-            labelFecha.TabIndex = 5;
-            labelFecha.Text = "17/12/2024";
-            // 
-            // labelEmiliano
-            // 
-            labelEmiliano.AutoSize = true;
-            labelEmiliano.Font = new Font("Tahoma", 10.2F, FontStyle.Bold);
-            labelEmiliano.ForeColor = Color.White;
-            labelEmiliano.Location = new Point(20, 513);
-            labelEmiliano.Name = "labelEmiliano";
-            labelEmiliano.Size = new Size(414, 21);
-            labelEmiliano.TabIndex = 4;
-            labelEmiliano.Text = "Emiliano de Jesus Esparza Ramirez 336604 3°C";
-            // 
-            // labelErnesto
-            // 
-            labelErnesto.AutoSize = true;
-            labelErnesto.Font = new Font("Tahoma", 10.2F, FontStyle.Bold);
-            labelErnesto.ForeColor = Color.White;
-            labelErnesto.Location = new Point(20, 445);
-            labelErnesto.Name = "labelErnesto";
-            labelErnesto.Size = new Size(419, 21);
-            labelErnesto.TabIndex = 3;
-            labelErnesto.Text = "Ernesto Alonso Morquecho Canales 351214 3°B";
-            // 
-            // labelJesus
-            // 
-            labelJesus.AutoSize = true;
-            labelJesus.Font = new Font("Tahoma", 10.2F, FontStyle.Bold);
-            labelJesus.ForeColor = Color.White;
-            labelJesus.Location = new Point(20, 479);
-            labelJesus.Name = "labelJesus";
-            labelJesus.Size = new Size(373, 21);
-            labelJesus.TabIndex = 2;
-            labelJesus.Text = "Jesus Alberto Damasco Lopez 345820 3°B";
-            // 
-            // labelJose
-            // 
-            labelJose.AutoSize = true;
-            labelJose.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelJose.ForeColor = Color.White;
-            labelJose.Location = new Point(20, 410);
-            labelJose.Name = "labelJose";
-            labelJose.Size = new Size(402, 21);
-            labelJose.TabIndex = 1;
-            labelJose.Text = "Jose Alejandro Contreras Becerra 350876 3°C";
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Anchor = AnchorStyles.None;
-            pictureBox2.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox2.Image = Properties.Resources.LogoUAA;
-            pictureBox2.Location = new Point(628, -4);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(200, 149);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
-            // Form1
+            // EntradaSistema
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1078, 597);
-            Controls.Add(panelImagenGrande);
-            Controls.Add(panelMenuLateral);
-            Name = "Form1";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            ClientSize = new Size(1232, 607);
+            Controls.Add(panel1);
+            Name = "EntradaSistema";
+            Text = "Form2";
+            panel1.ResumeLayout(false);
             panelMenuLateral.ResumeLayout(false);
             panelUsuarios.ResumeLayout(false);
-            panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panelImagenGrande.ResumeLayout(false);
-            panelImagenGrande.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
+        private Panel panel1;
+        private PictureBox pictureBox1;
         private Panel panelMenuLateral;
+        private Button btnSalir;
         private Panel panelUsuarios;
-        private Button btnUsuarios;
+        private Button button2;
+        private Button button1;
         private Button button6;
         private Button button5;
         private Button button4;
         private Button button3;
         private Button btnAdmin;
-        private Panel panelImagenGrande;
-        private Panel panelLogo;
-        private PictureBox pictureBox1;
-        private Label labelFecha;
-        private Label labelEmiliano;
-        private Label labelErnesto;
-        private Label labelJesus;
-        private Label labelJose;
-        private PictureBox pictureBox2;
-        private Label label1;
-        private PictureBox pictureBox3;
-        private Label labelCarrera;
-        private Label label2;
-        private Label label3;
-        private Button button1;
-        private Button btnSalir;
-        private Button button2;
+        private Button btnUsuarios;
     }
 }

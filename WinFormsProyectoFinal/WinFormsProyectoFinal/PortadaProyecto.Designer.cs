@@ -30,12 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PortadaProyecto));
             panelImagenGrande = new Panel();
+            label4 = new Label();
+            label3 = new Label();
             btnIniciar = new Button();
             btnSalir = new Button();
-            slogan = new Label();
             labelCarrera = new Label();
             label2 = new Label();
-            pictureBox3 = new PictureBox();
             label1 = new Label();
             labelFecha = new Label();
             labelEmiliano = new Label();
@@ -44,7 +44,6 @@
             labelJose = new Label();
             pictureBox2 = new PictureBox();
             panelImagenGrande.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
@@ -52,12 +51,12 @@
             // 
             panelImagenGrande.Anchor = AnchorStyles.None;
             panelImagenGrande.BackColor = Color.Gray;
+            panelImagenGrande.Controls.Add(label4);
+            panelImagenGrande.Controls.Add(label3);
             panelImagenGrande.Controls.Add(btnIniciar);
             panelImagenGrande.Controls.Add(btnSalir);
-            panelImagenGrande.Controls.Add(slogan);
             panelImagenGrande.Controls.Add(labelCarrera);
             panelImagenGrande.Controls.Add(label2);
-            panelImagenGrande.Controls.Add(pictureBox3);
             panelImagenGrande.Controls.Add(label1);
             panelImagenGrande.Controls.Add(labelFecha);
             panelImagenGrande.Controls.Add(labelEmiliano);
@@ -66,17 +65,39 @@
             panelImagenGrande.Controls.Add(labelJose);
             panelImagenGrande.Controls.Add(pictureBox2);
             panelImagenGrande.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            panelImagenGrande.Location = new Point(8, 1);
+            panelImagenGrande.Location = new Point(-115, 0);
             panelImagenGrande.Name = "panelImagenGrande";
-            panelImagenGrande.Size = new Size(1224, 606);
+            panelImagenGrande.Size = new Size(1121, 658);
             panelImagenGrande.TabIndex = 1;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(411, 323);
+            label4.Name = "label4";
+            label4.Size = new Size(366, 24);
+            label4.TabIndex = 14;
+            label4.Text = "Nombre del sistema: OFFICETEMAS";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(411, 359);
+            label3.Name = "label3";
+            label3.Size = new Size(406, 24);
+            label3.TabIndex = 13;
+            label3.Text = "Docente: Dra. Georgina Salazar Partida";
             // 
             // btnIniciar
             // 
             btnIniciar.FlatStyle = FlatStyle.Flat;
             btnIniciar.Font = new Font("Tahoma", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnIniciar.ForeColor = SystemColors.ButtonHighlight;
-            btnIniciar.Location = new Point(497, 433);
+            btnIniciar.Location = new Point(491, 576);
             btnIniciar.Name = "btnIniciar";
             btnIniciar.Size = new Size(253, 46);
             btnIniciar.TabIndex = 12;
@@ -92,7 +113,7 @@
             btnSalir.FlatStyle = FlatStyle.Flat;
             btnSalir.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSalir.ForeColor = SystemColors.ButtonHighlight;
-            btnSalir.Location = new Point(1110, 551);
+            btnSalir.Location = new Point(1015, 605);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(94, 41);
             btnSalir.TabIndex = 11;
@@ -102,25 +123,12 @@
             btnSalir.MouseEnter += btnSalir_MouseEnter;
             btnSalir.MouseLeave += btnSalir_MouseLeave;
             // 
-            // slogan
-            // 
-            slogan.BackColor = Color.Gray;
-            slogan.Font = new Font("Tahoma", 19.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            slogan.ForeColor = Color.Transparent;
-            slogan.Location = new Point(196, 265);
-            slogan.Name = "slogan";
-            slogan.Size = new Size(824, 54);
-            slogan.TabIndex = 10;
-            slogan.Text = "\"Con officetemas, tus ideas no tienen dilemas\"";
-            slogan.TextAlign = ContentAlignment.TopCenter;
-            slogan.UseMnemonic = false;
-            // 
             // labelCarrera
             // 
             labelCarrera.AutoSize = true;
             labelCarrera.Font = new Font("Tahoma", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelCarrera.ForeColor = Color.White;
-            labelCarrera.Location = new Point(429, 331);
+            labelCarrera.Location = new Point(422, 246);
             labelCarrera.Name = "labelCarrera";
             labelCarrera.Size = new Size(378, 28);
             labelCarrera.TabIndex = 9;
@@ -131,28 +139,18 @@
             label2.AutoSize = true;
             label2.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(468, 376);
+            label2.Location = new Point(477, 285);
             label2.Name = "label2";
-            label2.Size = new Size(310, 24);
+            label2.Size = new Size(267, 24);
             label2.TabIndex = 8;
-            label2.Text = "Dra. Georgina Salazar Partida";
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Image = Properties.Resources.LogoOfficetemas;
-            pictureBox3.Location = new Point(342, 12);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(539, 250);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 7;
-            pictureBox3.TabStop = false;
+            label2.Text = "Materia: Programación II";
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 10.2F, FontStyle.Bold);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(12, 568);
+            label1.Location = new Point(411, 533);
             label1.Name = "label1";
             label1.Size = new Size(343, 21);
             label1.TabIndex = 6;
@@ -162,9 +160,9 @@
             // 
             labelFecha.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelFecha.ForeColor = Color.White;
-            labelFecha.Location = new Point(12, 9);
+            labelFecha.Location = new Point(127, 9);
             labelFecha.Name = "labelFecha";
-            labelFecha.Size = new Size(213, 26);
+            labelFecha.Size = new Size(183, 26);
             labelFecha.TabIndex = 5;
             labelFecha.Text = "Fecha: 17/12/2024";
             // 
@@ -173,7 +171,7 @@
             labelEmiliano.AutoSize = true;
             labelEmiliano.Font = new Font("Tahoma", 10.2F, FontStyle.Bold);
             labelEmiliano.ForeColor = Color.White;
-            labelEmiliano.Location = new Point(12, 536);
+            labelEmiliano.Location = new Point(411, 501);
             labelEmiliano.Name = "labelEmiliano";
             labelEmiliano.Size = new Size(414, 21);
             labelEmiliano.TabIndex = 4;
@@ -184,7 +182,7 @@
             labelErnesto.AutoSize = true;
             labelErnesto.Font = new Font("Tahoma", 10.2F, FontStyle.Bold);
             labelErnesto.ForeColor = Color.White;
-            labelErnesto.Location = new Point(12, 468);
+            labelErnesto.Location = new Point(411, 433);
             labelErnesto.Name = "labelErnesto";
             labelErnesto.Size = new Size(419, 21);
             labelErnesto.TabIndex = 3;
@@ -195,7 +193,7 @@
             labelJesus.AutoSize = true;
             labelJesus.Font = new Font("Tahoma", 10.2F, FontStyle.Bold);
             labelJesus.ForeColor = Color.White;
-            labelJesus.Location = new Point(12, 502);
+            labelJesus.Location = new Point(411, 467);
             labelJesus.Name = "labelJesus";
             labelJesus.Size = new Size(373, 21);
             labelJesus.TabIndex = 2;
@@ -206,7 +204,7 @@
             labelJose.AutoSize = true;
             labelJose.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelJose.ForeColor = Color.White;
-            labelJose.Location = new Point(12, 433);
+            labelJose.Location = new Point(411, 398);
             labelJose.Name = "labelJose";
             labelJose.Size = new Size(402, 21);
             labelJose.TabIndex = 1;
@@ -216,9 +214,9 @@
             // 
             pictureBox2.Anchor = AnchorStyles.None;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(937, 13);
+            pictureBox2.Location = new Point(316, 9);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(271, 127);
+            pictureBox2.Size = new Size(578, 234);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
@@ -227,14 +225,13 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1232, 607);
+            ClientSize = new Size(1006, 658);
             Controls.Add(panelImagenGrande);
             Name = "PortadaProyecto";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             panelImagenGrande.ResumeLayout(false);
             panelImagenGrande.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
@@ -248,11 +245,11 @@
         private Label labelJose;
         private PictureBox pictureBox2;
         private Label label1;
-        private PictureBox pictureBox3;
         private Label labelCarrera;
         private Label label2;
-        private Label slogan;
         private Button btnSalir;
         private Button btnIniciar;
+        private Label label4;
+        private Label label3;
     }
 }

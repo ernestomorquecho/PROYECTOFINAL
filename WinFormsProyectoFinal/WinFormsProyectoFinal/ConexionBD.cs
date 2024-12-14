@@ -19,6 +19,14 @@ namespace WinFormsProyectoFinal
         {
             this.Connect();
         }
+        public MySqlConnection ObtenerConexion()
+        {
+            if (conexion == null || conexion.State != System.Data.ConnectionState.Open)
+            {
+                Connect(); // Assegurandonos de que la conexión esté abierta
+            }
+            return conexion;
+        }
 
         public void Disconnect()
         {

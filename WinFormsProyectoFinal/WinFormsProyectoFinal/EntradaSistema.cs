@@ -127,19 +127,19 @@ namespace WinFormsProyectoFinal
 
                 if (rol.Equals("admin", StringComparison.OrdinalIgnoreCase))//Si el usuario es "admin" abre esa ventana
                 {
-                    FormAdmin1 adminForm = new FormAdmin1();
-                    adminForm.Show();
+                    FormBienvenida bienvenidaForm = new FormBienvenida("admin");
+                    bienvenidaForm.Show();
                     this.Hide();
                 }
                 else if (rol.Equals("guest", StringComparison.OrdinalIgnoreCase))//Si es "guest" abre la ventana de usuario
                 {
-                    FormBienvenida bienvenidaForm = new FormBienvenida();
+                    FormBienvenida bienvenidaForm = new FormBienvenida("guest");
                     bienvenidaForm.Show();
                     this.Hide();
                 }
                 else
                 {
-                    FormBienvenida bienvenidaForm = new FormBienvenida();//Si es cuenta de nosotros tambien abre la ventana usuario
+                    FormBienvenida bienvenidaForm = new FormBienvenida("UsuarioX");//Si es cuenta de nosotros tambien abre la ventana usuario
                     bienvenidaForm.Show();
                     this.Hide();
                 }

@@ -70,6 +70,7 @@
             btn1.TabIndex = 3;
             btn1.Text = "Siguiente";
             btn1.UseVisualStyleBackColor = true;
+            btn1.Click += btn1_Click_1;
             // 
             // button1
             // 
@@ -93,6 +94,7 @@
             Controls.Add(lblBienvenida);
             Name = "FormBienvenida";
             Text = "Form2";
+            Load += FormBienvenida_Load;
             ResumeLayout(false);
             PerformLayout();
         }

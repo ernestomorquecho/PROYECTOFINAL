@@ -41,17 +41,17 @@ namespace WinFormsProyectoFinal
                         // Asignar valores a los controles de cada grupo
                         Label labelNombre = (Label)this.Controls["labelNomProd" + (i + 1)];
                         Label labelPrecio = (Label)this.Controls["lblPrecio" + (i + 1)];
-                        //Label labelDescripcion = (Label)this.Controls["labelDescripcion" + (i + 1)];
-                        PictureBox pictureBox = (PictureBox)this.Controls["pictureBox" + (i + 1)];
+                        RichTextBox richTextBoxDescripcion = (RichTextBox)this.Controls["rTB" + (i + 1)];
+                        //PictureBox pictureBox = (PictureBox)this.Controls["pictureBox" + (i + 1)];
                         ComboBox comboBox = (ComboBox)this.Controls["comboBox" + (i + 1)];
 
                         // Llenar los valores
                         labelNombre.Text = reader["Nombre"].ToString();
                         labelPrecio.Text = "$" + Convert.ToDecimal(reader["precio"]).ToString("F2");
-                        //labelDescripcion.Text = reader["Descripcion"].ToString();
+                        richTextBoxDescripcion.Text = reader["Descripcion"].ToString();
 
                         // Cargar la imagen
-                        //pictureBox.ImageLocation = reader["imagen"].ToString();
+                        //pictureBox.Image = reader["imagen"].ToString();
 
                         // Configurar el ComboBox con las existencias disponibles
                         comboBox.Items.Clear();
@@ -75,6 +75,12 @@ namespace WinFormsProyectoFinal
         private void FormCompras1_Load(object sender, EventArgs e)
         {
             CargaProductos();
+        }
+
+        private void btnComprar_Click(object sender, EventArgs e)
+        {
+            /*ProductosTienda ProductosCompra = new ProductosTienda();
+            ProductosCompra.*/
         }
     }
 }

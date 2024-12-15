@@ -1,8 +1,12 @@
 using Microsoft.VisualBasic.Logging;
+using MySql.Data.MySqlClient;
 using System.Data;
 using System.Drawing;
 using WinFormsProyectoFinal;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using OxyPlot;
+using OxyPlot.Series;
+using OxyPlot.WindowsForms;
 
 namespace WinFormsAppIdeaProy
 {
@@ -310,10 +314,6 @@ namespace WinFormsAppIdeaProy
 
         }
 
-        private void button9_Click_1(object sender, EventArgs e)
-        {
-
-        }
 
         private void button10_Click(object sender, EventArgs e)
         {
@@ -342,5 +342,139 @@ namespace WinFormsAppIdeaProy
             button10.BackColor = Color.Gray;
             button10.ForeColor = Color.White;
         }
+
+        private void btnVentas_Click(object sender, EventArgs e)
+        {
+            ConexionBD conexion = new ConexionBD();
+            try
+            {
+                // Consulta para obtener montos de ventas por usuario
+                string consulta = "SELECT Nombre, Monto FROM cuentas WHERE rol != 'admin'";
+                MySqlCommand comando = new MySqlCommand(consulta, conexion.GetConexion());
+                MySqlDataReader reader = comando.ExecuteReader();
+
+                // Diccionario para almacenar datos de ventas
+                Dictionary<string, decimal> datosVentas = new Dictionary<string, decimal>();
+
+                while (reader.Read())
+                {
+                    string nombre = reader["Nombre"].ToString();
+                    decimal monto = Convert.ToDecimal(reader["Monto"]);
+                    datosVentas[nombre] = monto;
+                }
+
+                reader.Close();
+
+                if (datosVentas.Count > 0)
+                {
+                    // Genera la gráfica con los datos obtenidos
+                    GenerarGraficaConOxyPlot(datosVentas);
+                }
+                else
+                {
+                    MessageBox.Show("No se encontraron ventas registradas.", "Ventas Totales", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al generar la gráfica: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conexion.Disconnect();
+            }
+        }
+
+        private void GenerarGraficaConOxyPlot(Dictionary<string, decimal> datosVentas)
+        {
+            // Crear el modelo de gráfica
+            PlotModel plotModel = new PlotModel { Title = "Distribución de Ventas" };
+
+            // Crear la serie de pastel
+            var pieSeries = new PieSeries
+            {
+                InsideLabelFormat = "{1:C}", // Formato para etiquetas internas (monto)
+                OutsideLabelFormat = "{0}", // Formato para etiquetas externas (nombre del usuario)
+                StrokeThickness = 2.0, // Grosor de los bordes
+                AngleSpan = 360, // Cobertura total del pastel
+                StartAngle = 0 // Ángulo inicial
+            };
+
+            // Agregar datos a la serie
+            foreach (var dato in datosVentas)
+            {
+                pieSeries.Slices.Add(new PieSlice(dato.Key, (double)dato.Value)
+                {
+                    IsExploded = false // No separa las porciones (opcional)
+                });
+            }
+
+            // Agregar la serie al modelo de gráfica
+            plotModel.Series.Add(pieSeries);
+
+            // Crear el control PlotView
+            PlotView plotView = new PlotView
+            {
+                Model = plotModel,
+                Dock = DockStyle.Fill
+            };
+
+            // Crear un formulario nuevo para mostrar la gráfica
+            Form formGrafica = new Form
+            {
+                StartPosition = FormStartPosition.CenterScreen,
+                BackColor = Color.Gray,
+                Text = "Gráfica de Ventas",
+                ForeColor = Color.White,
+                Width = 800, // Ancho del formulario
+                Height = 600 // Alto del formulario
+            };
+
+            // Botón para regresar al formulario principal
+            System.Windows.Forms.Button buttonRegresar = new System.Windows.Forms.Button
+            {
+                FlatStyle = FlatStyle.Flat,
+                ForeColor = Color.White,
+                Font = new Font("Tahoma", 12),
+                Text = "Regresar",
+                Anchor = AnchorStyles.Bottom | AnchorStyles.Right, // Posición en la esquina inferior derecha
+                Width = 110,
+                Height = 41,
+                Top = formGrafica.ClientSize.Height - 50, // Ajustar posición vertical
+                Left = formGrafica.ClientSize.Width - 120 // Ajustar posición horizontal
+            };
+
+            buttonRegresar.FlatAppearance.BorderColor = Color.White;
+
+            // Evento del botón "Regresar"
+            buttonRegresar.Click += (sender, args) =>
+            {
+                formGrafica.Close(); // Cierra el formulario de la gráfica
+            };
+
+            buttonRegresar.MouseEnter += (sender, args) =>
+            {
+                buttonRegresar.FlatAppearance.BorderColor = Color.Gray;
+                buttonRegresar.BackColor = Color.DarkSlateGray;
+                buttonRegresar.ForeColor = Color.White;
+
+            };
+
+            buttonRegresar.MouseLeave += (sender, args) =>
+            {
+                buttonRegresar.FlatAppearance.BorderColor = Color.White;
+                buttonRegresar.BackColor = Color.Gray;
+                buttonRegresar.ForeColor = Color.White;
+            };
+
+            // Redimensionar controles dinámicamente con el formulario
+            formGrafica.Controls.Add(buttonRegresar);
+            formGrafica.Controls.Add(plotView);
+
+            // Mostrar el formulario como modal
+            formGrafica.ShowDialog();
+        }
+
+
     }
 }

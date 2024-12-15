@@ -74,6 +74,12 @@ namespace WinFormsProyectoFinal
             }
         }
 
+        public MySqlConnection GetConexion()
+        {
+            return conexion;
+        }
+
+
 
     }
 }

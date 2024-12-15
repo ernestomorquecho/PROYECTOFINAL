@@ -60,7 +60,7 @@
             buttonEliminar = new Button();
             buttonModificar = new Button();
             label4 = new Label();
-            button9 = new Button();
+            btnVentas = new Button();
             button10 = new Button();
             panel1 = new Panel();
             panel2 = new Panel();
@@ -361,15 +361,17 @@
             // 
             // labelPVCafe
             // 
-            labelPVCafe.AutoSize = true;
             labelPVCafe.BackColor = Color.FromArgb(90, 90, 90);
-            labelPVCafe.Font = new Font("Tahoma", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelPVCafe.Font = new Font("Tahoma", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelPVCafe.ForeColor = SystemColors.ButtonHighlight;
-            labelPVCafe.Location = new Point(477, 16);
+            labelPVCafe.ImageAlign = ContentAlignment.TopCenter;
+            labelPVCafe.Location = new Point(421, 9);
             labelPVCafe.Name = "labelPVCafe";
-            labelPVCafe.Size = new Size(338, 34);
+            labelPVCafe.RightToLeft = RightToLeft.No;
+            labelPVCafe.Size = new Size(494, 43);
             labelPVCafe.TabIndex = 0;
             labelPVCafe.Text = "Administrador officetemas\r\n";
+            labelPVCafe.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // buttonEliminar
             // 
@@ -402,16 +404,16 @@
             label4.TabIndex = 34;
             label4.Text = "Ponemos otro producto?";
             // 
-            // button9
+            // btnVentas
             // 
-            button9.Location = new Point(161, 101);
-            button9.Margin = new Padding(3, 4, 3, 4);
-            button9.Name = "button9";
-            button9.Size = new Size(86, 31);
-            button9.TabIndex = 35;
-            button9.Text = "Ventas";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += button9_Click_1;
+            btnVentas.Location = new Point(13, 9);
+            btnVentas.Margin = new Padding(3, 4, 3, 4);
+            btnVentas.Name = "btnVentas";
+            btnVentas.Size = new Size(86, 31);
+            btnVentas.TabIndex = 35;
+            btnVentas.Text = "Ventas";
+            btnVentas.UseVisualStyleBackColor = true;
+            btnVentas.Click += btnVentas_Click;
             // 
             // button10
             // 
@@ -435,7 +437,7 @@
             panel1.Controls.Add(labelPVCafe);
             panel1.Controls.Add(button10);
             panel1.Controls.Add(pictureBoxProd1);
-            panel1.Controls.Add(button9);
+            panel1.Controls.Add(btnVentas);
             panel1.Controls.Add(pictureBoxProd2);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(pictureBoxProd3);
@@ -572,7 +574,7 @@
         private Button buttonEliminar;
         private Button buttonModificar;
         private Label label4;
-        private Button button9;
+        private Button btnVentas;
         private Button button10;
         private Panel panel1;
         private Panel panel2;

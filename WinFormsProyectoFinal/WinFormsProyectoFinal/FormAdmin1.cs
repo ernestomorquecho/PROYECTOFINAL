@@ -1,3 +1,4 @@
+using Microsoft.VisualBasic.ApplicationServices;
 using Microsoft.VisualBasic.Logging;
 using System.Data;
 using System.Drawing;
@@ -350,7 +351,19 @@ namespace WinFormsAppIdeaProy
             lblFecha.Text = DateTime.Now.ToShortDateString();
 
         }
+
+        private void btnReproducir_Click(object sender, EventArgs e)
+        {
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/Mymma/PROYECTOFINAL/Rolita.wav";
+            Sonido.Play();
+        }
+
+        private void btnPausa_Click(object sender, EventArgs e)
+        {
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/Mymma/PROYECTOFINAL/Rolita.wav";
+            Sonido.Stop();
+        }
     }
 }
-
-

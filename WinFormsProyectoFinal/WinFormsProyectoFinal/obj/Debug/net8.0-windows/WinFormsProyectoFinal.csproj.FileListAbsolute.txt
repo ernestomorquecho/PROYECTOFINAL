@@ -118,3 +118,8 @@ C:\Users\Mymma\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Deb
 C:\Users\Mymma\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.pdb
 C:\Users\Mymma\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.genruntimeconfig.cache
 C:\Users\Mymma\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\ref\WinFormsProyectoFinal.dll
+C:\Users\Mymma\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\Mymma\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\Mymma\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\Mymma\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\Mymma\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.csproj.ResolveComReference.cache

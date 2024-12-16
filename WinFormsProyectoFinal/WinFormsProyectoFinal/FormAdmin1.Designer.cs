@@ -64,7 +64,8 @@
             button9 = new Button();
             button10 = new Button();
             panel1 = new Panel();
-            label3 = new Label();
+            btnPausa = new Button();
+            btnReproducir = new Button();
             lblFecha = new Label();
             lblHora = new Label();
             panel2 = new Panel();
@@ -72,6 +73,7 @@
             label1 = new Label();
             pictureBox1 = new PictureBox();
             horaFecha = new System.Windows.Forms.Timer(components);
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd3).BeginInit();
@@ -438,6 +440,8 @@
             // 
             panel1.BackColor = Color.Gray;
             panel1.Controls.Add(label3);
+            panel1.Controls.Add(btnPausa);
+            panel1.Controls.Add(btnReproducir);
             panel1.Controls.Add(lblFecha);
             panel1.Controls.Add(lblHora);
             panel1.Controls.Add(labelPVCafe);
@@ -478,16 +482,25 @@
             panel1.Size = new Size(1304, 722);
             panel1.TabIndex = 37;
             // 
-            // label3
+            // btnPausa
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = SystemColors.Control;
-            label3.Location = new Point(1123, 570);
-            label3.Name = "label3";
-            label3.Size = new Size(80, 24);
-            label3.TabIndex = 41;
-            label3.Text = "Musica";
+            btnPausa.Location = new Point(1182, 627);
+            btnPausa.Name = "btnPausa";
+            btnPausa.Size = new Size(94, 29);
+            btnPausa.TabIndex = 40;
+            btnPausa.Text = "Pausa";
+            btnPausa.UseVisualStyleBackColor = true;
+            btnPausa.Click += btnPausa_Click;
+            // 
+            // btnReproducir
+            // 
+            btnReproducir.Location = new Point(1061, 627);
+            btnReproducir.Name = "btnReproducir";
+            btnReproducir.Size = new Size(94, 29);
+            btnReproducir.TabIndex = 39;
+            btnReproducir.Text = "Reproducir";
+            btnReproducir.UseVisualStyleBackColor = true;
+            btnReproducir.Click += btnReproducir_Click;
             // 
             // lblFecha
             // 
@@ -557,6 +570,17 @@
             // 
             horaFecha.Enabled = true;
             horaFecha.Tick += horaFecha_Tick;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = SystemColors.ButtonHighlight;
+            label3.Location = new Point(1127, 583);
+            label3.Name = "label3";
+            label3.Size = new Size(80, 24);
+            label3.TabIndex = 41;
+            label3.Text = "Musica";
             // 
             // FormAdmin1
             // 
@@ -628,6 +652,8 @@
         private Label lblFecha;
         private Label lblHora;
         private System.Windows.Forms.Timer horaFecha;
+        private Button btnPausa;
+        private Button btnReproducir;
         private Label label3;
     }
 }

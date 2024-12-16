@@ -44,7 +44,6 @@
             labelNomProd3 = new Label();
             labelNomProd2 = new Label();
             labelNomProd1 = new Label();
-            btnRegresar = new Button();
             btnLogout = new Button();
             btnComprar = new Button();
             label1 = new Label();
@@ -54,20 +53,20 @@
             comboBox3 = new ComboBox();
             label3 = new Label();
             comboBox4 = new ComboBox();
-            label5 = new Label();
-            comboBox5 = new ComboBox();
-            label6 = new Label();
-            comboBox6 = new ComboBox();
-            label7 = new Label();
-            comboBox7 = new ComboBox();
-            label8 = new Label();
-            comboBox8 = new ComboBox();
             label9 = new Label();
+            comboBox5 = new ComboBox();
+            label5 = new Label();
+            comboBox6 = new ComboBox();
+            label6 = new Label();
+            comboBox7 = new ComboBox();
+            label7 = new Label();
+            comboBox8 = new ComboBox();
+            label8 = new Label();
             comboBox9 = new ComboBox();
             label4 = new Label();
             labelNomProd9 = new Label();
-            pictureBox1 = new PictureBox();
-            label10 = new Label();
+            pictureBoxProd9 = new PictureBox();
+            labelTitulo = new Label();
             lblPrecio1 = new Label();
             lblPrecio2 = new Label();
             lblPrecio3 = new Label();
@@ -86,6 +85,10 @@
             rTB9 = new RichTextBox();
             rTB6 = new RichTextBox();
             rTB3 = new RichTextBox();
+            btnReset = new Button();
+            label10 = new Label();
+            label11 = new Label();
+            label12 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd3).BeginInit();
@@ -94,7 +97,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxProd9).BeginInit();
             SuspendLayout();
             // 
             // pictureBoxProd1
@@ -250,15 +253,6 @@
             labelNomProd1.TabIndex = 51;
             labelNomProd1.Text = "Producto1";
             // 
-            // btnRegresar
-            // 
-            btnRegresar.Location = new Point(28, 481);
-            btnRegresar.Name = "btnRegresar";
-            btnRegresar.Size = new Size(75, 23);
-            btnRegresar.TabIndex = 60;
-            btnRegresar.Text = "Regresar";
-            btnRegresar.UseVisualStyleBackColor = true;
-            // 
             // btnLogout
             // 
             btnLogout.Location = new Point(28, 511);
@@ -267,10 +261,11 @@
             btnLogout.TabIndex = 61;
             btnLogout.Text = "Logout";
             btnLogout.UseVisualStyleBackColor = true;
+            btnLogout.Click += btnLogout_Click;
             // 
             // btnComprar
             // 
-            btnComprar.Location = new Point(883, 502);
+            btnComprar.Location = new Point(939, 500);
             btnComprar.Name = "btnComprar";
             btnComprar.Size = new Size(75, 23);
             btnComprar.TabIndex = 62;
@@ -337,14 +332,14 @@
             comboBox4.Size = new Size(76, 23);
             comboBox4.TabIndex = 70;
             // 
-            // label5
+            // label9
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(131, 325);
-            label5.Name = "label5";
-            label5.Size = new Size(55, 15);
-            label5.TabIndex = 69;
-            label5.Text = "Agregar: ";
+            label9.AutoSize = true;
+            label9.Location = new Point(771, 447);
+            label9.Name = "label9";
+            label9.Size = new Size(55, 15);
+            label9.TabIndex = 69;
+            label9.Text = "Agregar: ";
             // 
             // comboBox5
             // 
@@ -354,14 +349,14 @@
             comboBox5.Size = new Size(76, 23);
             comboBox5.TabIndex = 72;
             // 
-            // label6
+            // label5
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(444, 325);
-            label6.Name = "label6";
-            label6.Size = new Size(55, 15);
-            label6.TabIndex = 71;
-            label6.Text = "Agregar: ";
+            label5.AutoSize = true;
+            label5.Location = new Point(444, 325);
+            label5.Name = "label5";
+            label5.Size = new Size(55, 15);
+            label5.TabIndex = 71;
+            label5.Text = "Agregar: ";
             // 
             // comboBox6
             // 
@@ -371,14 +366,14 @@
             comboBox6.Size = new Size(76, 23);
             comboBox6.TabIndex = 74;
             // 
-            // label7
+            // label6
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(771, 325);
-            label7.Name = "label7";
-            label7.Size = new Size(55, 15);
-            label7.TabIndex = 73;
-            label7.Text = "Agregar: ";
+            label6.AutoSize = true;
+            label6.Location = new Point(771, 325);
+            label6.Name = "label6";
+            label6.Size = new Size(55, 15);
+            label6.TabIndex = 73;
+            label6.Text = "Agregar: ";
             // 
             // comboBox7
             // 
@@ -388,14 +383,14 @@
             comboBox7.Size = new Size(76, 23);
             comboBox7.TabIndex = 76;
             // 
-            // label8
+            // label7
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(131, 447);
-            label8.Name = "label8";
-            label8.Size = new Size(55, 15);
-            label8.TabIndex = 75;
-            label8.Text = "Agregar: ";
+            label7.AutoSize = true;
+            label7.Location = new Point(131, 447);
+            label7.Name = "label7";
+            label7.Size = new Size(55, 15);
+            label7.TabIndex = 75;
+            label7.Text = "Agregar: ";
             // 
             // comboBox8
             // 
@@ -405,14 +400,14 @@
             comboBox8.Size = new Size(76, 23);
             comboBox8.TabIndex = 78;
             // 
-            // label9
+            // label8
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(444, 447);
-            label9.Name = "label9";
-            label9.Size = new Size(55, 15);
-            label9.TabIndex = 77;
-            label9.Text = "Agregar: ";
+            label8.AutoSize = true;
+            label8.Location = new Point(444, 447);
+            label8.Name = "label8";
+            label8.Size = new Size(55, 15);
+            label8.TabIndex = 77;
+            label8.Text = "Agregar: ";
             // 
             // comboBox9
             // 
@@ -425,7 +420,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(771, 447);
+            label4.Location = new Point(131, 330);
             label4.Name = "label4";
             label4.Size = new Size(55, 15);
             label4.TabIndex = 81;
@@ -441,24 +436,24 @@
             labelNomProd9.TabIndex = 80;
             labelNomProd9.Text = "Producto9";
             // 
-            // pictureBox1
+            // pictureBoxProd9
             // 
-            pictureBox1.BackColor = SystemColors.ControlLight;
-            pictureBox1.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox1.Location = new Point(771, 381);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(137, 57);
-            pictureBox1.TabIndex = 79;
-            pictureBox1.TabStop = false;
+            pictureBoxProd9.BackColor = SystemColors.ControlLight;
+            pictureBoxProd9.BorderStyle = BorderStyle.Fixed3D;
+            pictureBoxProd9.Location = new Point(771, 381);
+            pictureBoxProd9.Name = "pictureBoxProd9";
+            pictureBoxProd9.Size = new Size(137, 57);
+            pictureBoxProd9.TabIndex = 79;
+            pictureBoxProd9.TabStop = false;
             // 
-            // label10
+            // labelTitulo
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(131, 43);
-            label10.Name = "label10";
-            label10.Size = new Size(114, 15);
-            label10.TabIndex = 83;
-            label10.Text = "Compra de articulos";
+            labelTitulo.AutoSize = true;
+            labelTitulo.Location = new Point(131, 43);
+            labelTitulo.Name = "labelTitulo";
+            labelTitulo.Size = new Size(114, 15);
+            labelTitulo.TabIndex = 83;
+            labelTitulo.Text = "Compra de articulos";
             // 
             // lblPrecio1
             // 
@@ -613,11 +608,52 @@
             rTB3.TabIndex = 99;
             rTB3.Text = "";
             // 
+            // btnReset
+            // 
+            btnReset.Location = new Point(444, 511);
+            btnReset.Name = "btnReset";
+            btnReset.Size = new Size(137, 23);
+            btnReset.TabIndex = 102;
+            btnReset.Text = "Borrar elecciones";
+            btnReset.UseVisualStyleBackColor = true;
+            btnReset.Click += btnReset_Click;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(132, 71);
+            label10.Name = "label10";
+            label10.Size = new Size(114, 15);
+            label10.TabIndex = 103;
+            label10.Text = "Nombre                   $";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(771, 71);
+            label11.Name = "label11";
+            label11.Size = new Size(114, 15);
+            label11.TabIndex = 104;
+            label11.Text = "Nombre                   $";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(444, 71);
+            label12.Name = "label12";
+            label12.Size = new Size(114, 15);
+            label12.TabIndex = 105;
+            label12.Text = "Nombre                   $";
+            // 
             // FormCompras1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1081, 546);
+            Controls.Add(label12);
+            Controls.Add(label11);
+            Controls.Add(label10);
+            Controls.Add(btnReset);
             Controls.Add(rTB9);
             Controls.Add(rTB6);
             Controls.Add(rTB3);
@@ -636,21 +672,21 @@
             Controls.Add(lblPrecio3);
             Controls.Add(lblPrecio2);
             Controls.Add(lblPrecio1);
-            Controls.Add(label10);
+            Controls.Add(labelTitulo);
             Controls.Add(comboBox9);
             Controls.Add(label4);
             Controls.Add(labelNomProd9);
-            Controls.Add(pictureBox1);
+            Controls.Add(pictureBoxProd9);
             Controls.Add(comboBox8);
-            Controls.Add(label9);
-            Controls.Add(comboBox7);
             Controls.Add(label8);
-            Controls.Add(comboBox6);
+            Controls.Add(comboBox7);
             Controls.Add(label7);
-            Controls.Add(comboBox5);
+            Controls.Add(comboBox6);
             Controls.Add(label6);
-            Controls.Add(comboBox4);
+            Controls.Add(comboBox5);
             Controls.Add(label5);
+            Controls.Add(comboBox4);
+            Controls.Add(label9);
             Controls.Add(comboBox3);
             Controls.Add(label3);
             Controls.Add(comboBox2);
@@ -659,7 +695,6 @@
             Controls.Add(label1);
             Controls.Add(btnComprar);
             Controls.Add(btnLogout);
-            Controls.Add(btnRegresar);
             Controls.Add(pictureBoxProd1);
             Controls.Add(pictureBoxProd2);
             Controls.Add(pictureBoxProd3);
@@ -687,7 +722,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxProd9).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -710,7 +745,6 @@
         private Label labelNomProd3;
         private Label labelNomProd2;
         private Label labelNomProd1;
-        private Button btnRegresar;
         private Button btnLogout;
         private Button btnComprar;
         private Label label1;
@@ -720,20 +754,20 @@
         private ComboBox comboBox3;
         private Label label3;
         private ComboBox comboBox4;
-        private Label label5;
-        private ComboBox comboBox5;
-        private Label label6;
-        private ComboBox comboBox6;
-        private Label label7;
-        private ComboBox comboBox7;
-        private Label label8;
-        private ComboBox comboBox8;
         private Label label9;
+        private ComboBox comboBox5;
+        private Label label5;
+        private ComboBox comboBox6;
+        private Label label6;
+        private ComboBox comboBox7;
+        private Label label7;
+        private ComboBox comboBox8;
+        private Label label8;
         private ComboBox comboBox9;
         private Label label4;
         private Label labelNomProd9;
-        private PictureBox pictureBox1;
-        private Label label10;
+        private PictureBox pictureBoxProd9;
+        private Label labelTitulo;
         private Label lblPrecio1;
         private Label lblPrecio2;
         private Label lblPrecio3;
@@ -752,5 +786,9 @@
         private RichTextBox rTB9;
         private RichTextBox rTB6;
         private RichTextBox rTB3;
+        private Button btnReset;
+        private Label label10;
+        private Label label11;
+        private Label label12;
     }
 }

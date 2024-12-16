@@ -94,3 +94,4 @@ C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Deb
 C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.csproj.AssemblyReference.cache
 C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinForms.353A6738.Up2Date
 C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.FormCompras1.resources
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\itextsharp.dll

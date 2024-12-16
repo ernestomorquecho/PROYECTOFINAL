@@ -59,7 +59,7 @@ namespace WinFormsProyectoFinal
             }
             else
             {
-                FormCompras1 siguiente = new FormCompras1();
+                FormCompras1 siguiente = new FormCompras1(usuario);
                 siguiente.Show();
                 this.Hide();
             }

@@ -139,7 +139,7 @@ namespace WinFormsProyectoFinal
                 }
                 else
                 {
-                    FormBienvenida bienvenidaForm = new FormBienvenida("UsuarioX");//Si es cuenta de nosotros tambien abre la ventana usuario
+                    FormBienvenida bienvenidaForm = new FormBienvenida(nombre);//Si es cuenta de nosotros tambien abre la ventana usuario
                     bienvenidaForm.Show();
                     this.Hide();
                 }

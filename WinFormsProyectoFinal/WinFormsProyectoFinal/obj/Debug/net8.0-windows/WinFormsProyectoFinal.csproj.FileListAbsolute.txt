@@ -55,7 +55,6 @@ C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Deb
 C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\WinFormsProyectoFinal.pdb
 C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.genruntimeconfig.cache
 C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\ref\WinFormsProyectoFinal.dll
-C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsAppIdeaProy.Form3.resources
 C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsAppIdeaProy.FormAdmin1.resources
 C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsAppIdeaProy.FormModificaProducto.resources
 C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsAppIdeaProy.FormSubirPorducto.resources
@@ -79,5 +78,27 @@ C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoF
 C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.csproj.AssemblyReference.cache
 C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinForms.353A6738.Up2Date
+<<<<<<< HEAD
 C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\OxyPlot.dll
 C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\OxyPlot.WindowsForms.dll
+=======
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.csproj.AssemblyReference.cache
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinForms.353A6738.Up2Date
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.FormCompras1.resources
+C:\Users\damas\PROYECTOFINAL\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\itextsharp.dll
+>>>>>>> 2948ce30c0ac80bcb0220b06404bb79e9ea635e0
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.FormCompras1.resources
+C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\itextsharp.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsProyectoFinal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c66cc1adaa55d8ff55b560dbebe33cf225dba254")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68875af5ea0d8f9b588d69f6c8ff662439307ad7")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinFormsProyectoFinal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinFormsProyectoFinal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -81,6 +81,7 @@
             // 
             pictureBoxProd1.BackColor = SystemColors.ControlLight;
             pictureBoxProd1.BorderStyle = BorderStyle.Fixed3D;
+
             pictureBoxProd1.Image = WinFormsProyectoFinal.Properties.Resources.Libreta;
             pictureBoxProd1.Location = new Point(298, 523);
             pictureBoxProd1.Margin = new Padding(3, 4, 3, 4);
@@ -450,7 +451,7 @@
             button10.Location = new Point(1106, 8);
             button10.Margin = new Padding(3, 4, 3, 4);
             button10.Name = "button10";
-            button10.Size = new Size(110, 41);
+            button10.Size = new Size(96, 31);
             button10.TabIndex = 36;
             button10.Text = "Logout";
             button10.UseVisualStyleBackColor = true;
@@ -491,7 +492,8 @@
             panel1.Controls.Add(button6);
             panel1.Controls.Add(button8);
             panel1.Controls.Add(button7);
-            panel1.Location = new Point(-1, 60);
+            panel1.Location = new Point(-1, 45);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
             panel1.Size = new Size(1233, 721);
             panel1.TabIndex = 37;
@@ -503,6 +505,7 @@
             panel2.Controls.Add(label1);
             panel2.Controls.Add(pictureBox1);
             panel2.Location = new Point(-1, 0);
+            panel2.Margin = new Padding(3, 2, 3, 2);
             panel2.Name = "panel2";
             panel2.Size = new Size(1228, 61);
             panel2.TabIndex = 38;
@@ -512,9 +515,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Lucida Console", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.ButtonHighlight;
-            label2.Location = new Point(13, 15);
+            label2.Location = new Point(11, 11);
             label2.Name = "label2";
-            label2.Size = new Size(175, 23);
+            label2.Size = new Size(141, 19);
             label2.TabIndex = 2;
             label2.Text = "OFFICETEMAS";
             // 
@@ -525,7 +528,7 @@
             label1.ForeColor = SystemColors.ButtonHighlight;
             label1.Location = new Point(766, 20);
             label1.Name = "label1";
-            label1.Size = new Size(339, 18);
+            label1.Size = new Size(281, 14);
             label1.TabIndex = 1;
             label1.Text = "Con officetemas, tus ideas no tienen dilemas";
             // 
@@ -533,19 +536,19 @@
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(1111, -1);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(122, 62);
+            pictureBox1.Size = new Size(107, 46);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // FormAdmin1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1230, 780);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "FormAdmin1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAdmin1));
             pictureBoxProd1 = new PictureBox();
             pictureBoxProd2 = new PictureBox();
@@ -63,10 +64,14 @@
             button9 = new Button();
             button10 = new Button();
             panel1 = new Panel();
+            label3 = new Label();
+            lblFecha = new Label();
+            lblHora = new Label();
             panel2 = new Panel();
             label2 = new Label();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            horaFecha = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd3).BeginInit();
@@ -432,6 +437,9 @@
             // panel1
             // 
             panel1.BackColor = Color.Gray;
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(lblFecha);
+            panel1.Controls.Add(lblHora);
             panel1.Controls.Add(labelPVCafe);
             panel1.Controls.Add(button10);
             panel1.Controls.Add(pictureBoxProd1);
@@ -469,6 +477,39 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1304, 722);
             panel1.TabIndex = 37;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = SystemColors.Control;
+            label3.Location = new Point(1123, 570);
+            label3.Name = "label3";
+            label3.Size = new Size(80, 24);
+            label3.TabIndex = 41;
+            label3.Text = "Musica";
+            // 
+            // lblFecha
+            // 
+            lblFecha.AutoSize = true;
+            lblFecha.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblFecha.ForeColor = SystemColors.ButtonHighlight;
+            lblFecha.Location = new Point(55, 645);
+            lblFecha.Name = "lblFecha";
+            lblFecha.Size = new Size(70, 24);
+            lblFecha.TabIndex = 38;
+            lblFecha.Text = "Fecha";
+            // 
+            // lblHora
+            // 
+            lblHora.AutoSize = true;
+            lblHora.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblHora.ForeColor = SystemColors.ButtonHighlight;
+            lblHora.Location = new Point(55, 616);
+            lblHora.Name = "lblHora";
+            lblHora.Size = new Size(58, 24);
+            lblHora.TabIndex = 37;
+            lblHora.Text = "Hora";
             // 
             // panel2
             // 
@@ -511,6 +552,11 @@
             pictureBox1.Size = new Size(122, 62);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            // 
+            // horaFecha
+            // 
+            horaFecha.Enabled = true;
+            horaFecha.Tick += horaFecha_Tick;
             // 
             // FormAdmin1
             // 
@@ -579,5 +625,9 @@
         private PictureBox pictureBox1;
         private Label label1;
         private Label label2;
+        private Label lblFecha;
+        private Label lblHora;
+        private System.Windows.Forms.Timer horaFecha;
+        private Label label3;
     }
 }

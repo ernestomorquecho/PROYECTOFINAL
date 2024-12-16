@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PortadaProyecto));
             panelImagenGrande = new Panel();
             label4 = new Label();
@@ -43,6 +44,9 @@
             labelJesus = new Label();
             labelJose = new Label();
             pictureBox2 = new PictureBox();
+            lblHora = new Label();
+            lblFecha = new Label();
+            fechaHora = new System.Windows.Forms.Timer(components);
             panelImagenGrande.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -51,6 +55,8 @@
             // 
             panelImagenGrande.Anchor = AnchorStyles.None;
             panelImagenGrande.BackColor = Color.Gray;
+            panelImagenGrande.Controls.Add(lblFecha);
+            panelImagenGrande.Controls.Add(lblHora);
             panelImagenGrande.Controls.Add(label4);
             panelImagenGrande.Controls.Add(label3);
             panelImagenGrande.Controls.Add(btnIniciar);
@@ -113,9 +119,9 @@
             btnSalir.FlatStyle = FlatStyle.Flat;
             btnSalir.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSalir.ForeColor = SystemColors.ButtonHighlight;
-            btnSalir.Location = new Point(1015, 605);
+            btnSalir.Location = new Point(994, 576);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(94, 41);
+            btnSalir.Size = new Size(100, 46);
             btnSalir.TabIndex = 11;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
@@ -221,6 +227,33 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
+            // lblHora
+            // 
+            lblHora.AutoSize = true;
+            lblHora.Font = new Font("Tahoma", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblHora.ForeColor = SystemColors.ButtonFace;
+            lblHora.Location = new Point(154, 567);
+            lblHora.Name = "lblHora";
+            lblHora.Size = new Size(68, 28);
+            lblHora.TabIndex = 15;
+            lblHora.Text = "Hora";
+            // 
+            // lblFecha
+            // 
+            lblFecha.AutoSize = true;
+            lblFecha.Font = new Font("Tahoma", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblFecha.ForeColor = SystemColors.ButtonFace;
+            lblFecha.Location = new Point(154, 595);
+            lblFecha.Name = "lblFecha";
+            lblFecha.Size = new Size(80, 28);
+            lblFecha.TabIndex = 16;
+            lblFecha.Text = "Fecha";
+            // 
+            // fechaHora
+            // 
+            fechaHora.Enabled = true;
+            fechaHora.Tick += fechaHora_Tick;
+            // 
             // PortadaProyecto
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -251,5 +284,8 @@
         private Button btnIniciar;
         private Label label4;
         private Label label3;
+        private Label lblFecha;
+        private Label lblHora;
+        private System.Windows.Forms.Timer fechaHora;
     }
 }

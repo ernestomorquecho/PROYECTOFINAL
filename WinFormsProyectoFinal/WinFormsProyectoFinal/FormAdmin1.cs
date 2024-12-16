@@ -1,6 +1,7 @@
 using Microsoft.VisualBasic.Logging;
 using System.Data;
 using System.Drawing;
+using System.Media;
 using WinFormsProyectoFinal;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
@@ -342,5 +343,14 @@ namespace WinFormsAppIdeaProy
             button10.BackColor = Color.Gray;
             button10.ForeColor = Color.White;
         }
+
+        private void horaFecha_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = DateTime.Now.ToLongTimeString();
+            lblFecha.Text = DateTime.Now.ToShortDateString();
+
+        }
     }
 }
+
+

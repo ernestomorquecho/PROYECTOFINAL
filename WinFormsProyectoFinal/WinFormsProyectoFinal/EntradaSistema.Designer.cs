@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panel1 = new Panel();
             btnIngresar = new Button();
             panelRayita2 = new Panel();
@@ -40,6 +41,9 @@
             txtUsuario = new TextBox();
             labelUsuario = new Label();
             pictureBox1 = new PictureBox();
+            lblHoraES = new Label();
+            lblFecha = new Label();
+            fechaHoraES = new System.Windows.Forms.Timer(components);
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -49,6 +53,8 @@
             panel1.AutoScroll = true;
             panel1.AutoSize = true;
             panel1.BackColor = Color.Gray;
+            panel1.Controls.Add(lblFecha);
+            panel1.Controls.Add(lblHoraES);
             panel1.Controls.Add(btnIngresar);
             panel1.Controls.Add(panelRayita2);
             panel1.Controls.Add(txtContra);
@@ -70,7 +76,7 @@
             btnIngresar.FlatStyle = FlatStyle.Flat;
             btnIngresar.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnIngresar.ForeColor = SystemColors.ButtonHighlight;
-            btnIngresar.Location = new Point(435, 412);
+            btnIngresar.Location = new Point(433, 421);
             btnIngresar.Name = "btnIngresar";
             btnIngresar.Size = new Size(94, 36);
             btnIngresar.TabIndex = 18;
@@ -123,9 +129,9 @@
             btnCerrar.FlatStyle = FlatStyle.Flat;
             btnCerrar.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCerrar.ForeColor = SystemColors.ButtonHighlight;
-            btnCerrar.Location = new Point(832, 433);
+            btnCerrar.Location = new Point(817, 421);
             btnCerrar.Name = "btnCerrar";
-            btnCerrar.Size = new Size(94, 36);
+            btnCerrar.Size = new Size(98, 43);
             btnCerrar.TabIndex = 13;
             btnCerrar.Text = "Salir";
             btnCerrar.UseVisualStyleBackColor = true;
@@ -139,7 +145,7 @@
             btnPortada.FlatStyle = FlatStyle.Flat;
             btnPortada.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnPortada.ForeColor = SystemColors.ButtonHighlight;
-            btnPortada.Location = new Point(14, 433);
+            btnPortada.Location = new Point(12, 25);
             btnPortada.Name = "btnPortada";
             btnPortada.Size = new Size(192, 36);
             btnPortada.TabIndex = 12;
@@ -192,6 +198,33 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // lblHoraES
+            // 
+            lblHoraES.AutoSize = true;
+            lblHoraES.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblHoraES.ForeColor = SystemColors.ButtonFace;
+            lblHoraES.Location = new Point(35, 410);
+            lblHoraES.Name = "lblHoraES";
+            lblHoraES.Size = new Size(58, 24);
+            lblHoraES.TabIndex = 19;
+            lblHoraES.Text = "Hora";
+            // 
+            // lblFecha
+            // 
+            lblFecha.AutoSize = true;
+            lblFecha.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblFecha.ForeColor = SystemColors.ButtonFace;
+            lblFecha.Location = new Point(35, 433);
+            lblFecha.Name = "lblFecha";
+            lblFecha.Size = new Size(70, 24);
+            lblFecha.TabIndex = 20;
+            lblFecha.Text = "Fecha";
+            // 
+            // fechaHoraES
+            // 
+            fechaHoraES.Enabled = true;
+            fechaHoraES.Tick += fechaHoraES_Tick;
+            // 
             // EntradaSistema
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -199,6 +232,7 @@
             ClientSize = new Size(936, 480);
             Controls.Add(panel1);
             Name = "EntradaSistema";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -221,5 +255,8 @@
         private TextBox txtContra;
         private Label labelContraseña;
         private Button btnIngresar;
+        private Label lblFecha;
+        private Label lblHoraES;
+        private System.Windows.Forms.Timer fechaHoraES;
     }
 }

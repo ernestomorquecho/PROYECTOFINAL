@@ -150,5 +150,10 @@ namespace WinFormsProyectoFinal
             }
         }
 
+        private void fechaHoraES_Tick(object sender, EventArgs e)
+        {
+            lblHoraES.Text = DateTime.Now.ToLongTimeString();
+            lblFecha.Text = DateTime.Now.ToShortDateString();
+        }
     }
 }

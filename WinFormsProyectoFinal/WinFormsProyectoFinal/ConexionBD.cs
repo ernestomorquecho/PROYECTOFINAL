@@ -19,6 +19,14 @@ namespace WinFormsProyectoFinal
         {
             this.Connect();
         }
+        public MySqlConnection ObtenerConexion()
+        {
+            if (conexion == null || conexion.State != System.Data.ConnectionState.Open)
+            {
+                Connect(); // Assegurandonos de que la conexión esté abierta
+            }
+            return conexion;
+        }
 
         public void Disconnect()
         {
@@ -26,7 +34,6 @@ namespace WinFormsProyectoFinal
             {
                 //Si la conexion con la base de datos esta abierta esta funcion la cierra
                 conexion.Close();
-                MessageBox.Show("Conexion cerrada correctamente", "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -38,7 +45,6 @@ namespace WinFormsProyectoFinal
             {
                 conexion = new MySqlConnection(cadenaConexion);
                 conexion.Open();
-                MessageBox.Show("Conexion establecida", "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
@@ -77,6 +83,40 @@ namespace WinFormsProyectoFinal
         public MySqlConnection GetConexion()
         {
             return conexion;
+        }
+
+        public List<ProductosTienda> ObtenerProductos()
+        {
+            List<ProductosTienda> productos = new List<ProductosTienda>();
+
+            try
+            {
+                // Consulta para obtener los datos de la tabla productos
+                string consulta = "SELECT id, imagen, nombre, descripcion, precio, existencias FROM productos";
+                MySqlCommand comando = new MySqlCommand(consulta, conexion);
+
+                using (MySqlDataReader reader = comando.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        productos.Add(new ProductosTienda
+                        {
+                            Id = reader.GetInt32("id"),
+                            Imagen = reader.GetString("imagen"),
+                            Nombre = reader.GetString("nombre"),
+                            Descripcion = reader.GetString("descripcion"),
+                            Precio = reader.GetInt32("precio"),
+                            Existencias = reader.GetInt32("existencias")
+                        });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al obtener productos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            return productos;
         }
 
 

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinFormsAppIdeaProy;
 using MySql.Data.MySqlClient;
+using System.Media;
 
 namespace WinFormsProyectoFinal
 {
@@ -18,6 +19,7 @@ namespace WinFormsProyectoFinal
         {
             InitializeComponent();
         }
+
 
         /*
         private void MostrarFormularioUsuario(string usuario)
@@ -127,19 +129,19 @@ namespace WinFormsProyectoFinal
 
                 if (rol.Equals("admin", StringComparison.OrdinalIgnoreCase))//Si el usuario es "admin" abre esa ventana
                 {
-                    FormAdmin1 adminForm = new FormAdmin1();
-                    adminForm.Show();
+                    FormBienvenida bienvenidaForm = new FormBienvenida("admin");
+                    bienvenidaForm.Show();
                     this.Hide();
                 }
                 else if (rol.Equals("guest", StringComparison.OrdinalIgnoreCase))//Si es "guest" abre la ventana de usuario
                 {
-                    FormBienvenida bienvenidaForm = new FormBienvenida();
+                    FormBienvenida bienvenidaForm = new FormBienvenida("guest");
                     bienvenidaForm.Show();
                     this.Hide();
                 }
                 else
                 {
-                    FormBienvenida bienvenidaForm = new FormBienvenida();//Si es cuenta de nosotros tambien abre la ventana usuario
+                    FormBienvenida bienvenidaForm = new FormBienvenida(nombre);//Si es cuenta de nosotros tambien abre la ventana usuario
                     bienvenidaForm.Show();
                     this.Hide();
                 }
@@ -150,5 +152,25 @@ namespace WinFormsProyectoFinal
             }
         }
 
+        private void btnReproducir_Click(object sender, EventArgs e)
+        {
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/alons/OneDrive/Documentos/Recursamiento/ProyectoFinal/Rolita.wav";
+            Sonido.Play();
+        }
+
+        private void btnPausa_Click(object sender, EventArgs e)
+        {
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/alons/OneDrive/Documentos/Recursamiento/ProyectoFinal/Rolita.wav";
+            Sonido.Stop();
+        }
+
+        private void horaFecha_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = DateTime.Now.ToLongTimeString();
+            lblFecha.Text = DateTime.Now.ToShortDateString();
+
+        }
     }
 }

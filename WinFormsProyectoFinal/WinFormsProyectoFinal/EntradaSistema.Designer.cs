@@ -28,7 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panel1 = new Panel();
+            lblFecha = new Label();
+            lblHora = new Label();
+            btnPausa = new Button();
+            btnReproducir = new Button();
             btnIngresar = new Button();
             panelRayita2 = new Panel();
             txtContra = new TextBox();
@@ -40,6 +45,7 @@
             txtUsuario = new TextBox();
             labelUsuario = new Label();
             pictureBox1 = new PictureBox();
+            horaFecha = new System.Windows.Forms.Timer(components);
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -49,6 +55,10 @@
             panel1.AutoScroll = true;
             panel1.AutoSize = true;
             panel1.BackColor = Color.Gray;
+            panel1.Controls.Add(lblFecha);
+            panel1.Controls.Add(lblHora);
+            panel1.Controls.Add(btnPausa);
+            panel1.Controls.Add(btnReproducir);
             panel1.Controls.Add(btnIngresar);
             panel1.Controls.Add(panelRayita2);
             panel1.Controls.Add(txtContra);
@@ -64,6 +74,57 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(938, 481);
             panel1.TabIndex = 0;
+            // 
+            // lblFecha
+            // 
+            lblFecha.AutoSize = true;
+            lblFecha.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblFecha.ForeColor = SystemColors.ButtonHighlight;
+            lblFecha.Location = new Point(12, 438);
+            lblFecha.Name = "lblFecha";
+            lblFecha.Size = new Size(72, 24);
+            lblFecha.TabIndex = 22;
+            lblFecha.Text = "label2";
+            // 
+            // lblHora
+            // 
+            lblHora.AutoSize = true;
+            lblHora.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblHora.ForeColor = SystemColors.ButtonHighlight;
+            lblHora.Location = new Point(12, 412);
+            lblHora.Name = "lblHora";
+            lblHora.Size = new Size(72, 24);
+            lblHora.TabIndex = 21;
+            lblHora.Text = "label1";
+            // 
+            // btnPausa
+            // 
+            btnPausa.FlatAppearance.BorderColor = Color.Gray;
+            btnPausa.FlatStyle = FlatStyle.Flat;
+            btnPausa.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnPausa.ForeColor = SystemColors.ButtonHighlight;
+            btnPausa.Location = new Point(886, 61);
+            btnPausa.Name = "btnPausa";
+            btnPausa.Size = new Size(49, 60);
+            btnPausa.TabIndex = 20;
+            btnPausa.Text = "| |\r\n\r\n";
+            btnPausa.UseVisualStyleBackColor = true;
+            btnPausa.Click += btnPausa_Click;
+            // 
+            // btnReproducir
+            // 
+            btnReproducir.FlatAppearance.BorderColor = Color.Gray;
+            btnReproducir.FlatStyle = FlatStyle.Flat;
+            btnReproducir.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnReproducir.ForeColor = SystemColors.ButtonHighlight;
+            btnReproducir.Location = new Point(890, 3);
+            btnReproducir.Name = "btnReproducir";
+            btnReproducir.Size = new Size(45, 52);
+            btnReproducir.TabIndex = 19;
+            btnReproducir.Text = "▶";
+            btnReproducir.TextAlign = ContentAlignment.TopCenter;
+            btnReproducir.UseVisualStyleBackColor = true;
+            btnReproducir.Click += btnReproducir_Click;
             // 
             // btnIngresar
             // 
@@ -139,7 +200,7 @@
             btnPortada.FlatStyle = FlatStyle.Flat;
             btnPortada.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnPortada.ForeColor = SystemColors.ButtonHighlight;
-            btnPortada.Location = new Point(14, 433);
+            btnPortada.Location = new Point(12, 13);
             btnPortada.Name = "btnPortada";
             btnPortada.Size = new Size(192, 36);
             btnPortada.TabIndex = 12;
@@ -186,11 +247,16 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.LogoOfficetemas;
-            pictureBox1.Location = new Point(236, 13);
+            pictureBox1.Location = new Point(246, 13);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(491, 219);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            // 
+            // horaFecha
+            // 
+            horaFecha.Enabled = true;
+            horaFecha.Tick += horaFecha_Tick;
             // 
             // EntradaSistema
             // 
@@ -221,5 +287,10 @@
         private TextBox txtContra;
         private Label labelContraseña;
         private Button btnIngresar;
+        private Button btnPausa;
+        private Button btnReproducir;
+        private Label lblFecha;
+        private Label lblHora;
+        private System.Windows.Forms.Timer horaFecha;
     }
 }

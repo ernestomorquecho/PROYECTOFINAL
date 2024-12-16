@@ -89,6 +89,8 @@
             label10 = new Label();
             label11 = new Label();
             label12 = new Label();
+            lblUser = new Label();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd3).BeginInit();
@@ -645,11 +647,29 @@
             label12.TabIndex = 105;
             label12.Text = "Nombre                   $";
             // 
+            // lblUser
+            // 
+            lblUser.AutoSize = true;
+            lblUser.Location = new Point(771, 43);
+            lblUser.Name = "lblUser";
+            lblUser.Size = new Size(47, 15);
+            lblUser.TabIndex = 106;
+            lblUser.Text = "Usuario";
+            // 
+            // panel1
+            // 
+            panel1.Location = new Point(-2, -4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1083, 44);
+            panel1.TabIndex = 107;
+            // 
             // FormCompras1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1081, 546);
+            Controls.Add(panel1);
+            Controls.Add(lblUser);
             Controls.Add(label12);
             Controls.Add(label11);
             Controls.Add(label10);
@@ -790,5 +810,7 @@
         private Label label10;
         private Label label11;
         private Label label12;
+        private Label lblUser;
+        private Panel panel1;
     }
 }

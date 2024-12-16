@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\damas\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\formcompras1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\formcompras1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\damas\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\generatickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\generatickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +11,8 @@
       "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\formcompras1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\damas\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\winformsproyectofinal\\entradasistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\entradasistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\damas\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\formmodificaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\formmodificaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\damas\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\formadmin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\formadmin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,79 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GeneraTickets.cs",
               "DocumentMoniker": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\GeneraTickets.cs",
               "RelativeDocumentMoniker": "WinFormsProyectoFinal\\GeneraTickets.cs",
               "ToolTip": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\GeneraTickets.cs",
               "RelativeToolTip": "WinFormsProyectoFinal\\GeneraTickets.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAgwFEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwEsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T06:33:06.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EntradaSistema.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\EntradaSistema.cs",
-              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\EntradaSistema.cs",
-              "ToolTip": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\EntradaSistema.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WinFormsProyectoFinal\\EntradaSistema.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T06:01:02.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConexionBD.cs",
-              "DocumentMoniker": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ConexionBD.cs",
-              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\ConexionBD.cs",
-              "ToolTip": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ConexionBD.cs",
-              "RelativeToolTip": "WinFormsProyectoFinal\\ConexionBD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T03:56:47.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormCompras1.cs",
-              "DocumentMoniker": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormCompras1.cs",
-              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\FormCompras1.cs",
-              "ToolTip": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormCompras1.cs",
-              "RelativeToolTip": "WinFormsProyectoFinal\\FormCompras1.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAAwJMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T21:58:48.479Z",
+              "WhenOpened": "2024-12-16T19:37:57.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FormAdmin1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.cs",
+              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\FormAdmin1.cs",
+              "ToolTip": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WinFormsProyectoFinal\\FormAdmin1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T19:23:56.549Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FormCompras1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormCompras1.cs",
               "RelativeDocumentMoniker": "WinFormsProyectoFinal\\FormCompras1.cs",
               "ToolTip": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormCompras1.cs [Dise\u00F1o]",
               "RelativeToolTip": "WinFormsProyectoFinal\\FormCompras1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T16:46:33.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormModificaProducto.cs",
-              "DocumentMoniker": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormModificaProducto.cs",
-              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\FormModificaProducto.cs",
-              "ToolTip": "C:\\Users\\damas\\PROYECTOFINAL\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormModificaProducto.cs",
-              "RelativeToolTip": "WinFormsProyectoFinal\\FormModificaProducto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowBIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:27:45.281Z"
+              "WhenOpened": "2024-12-14T16:46:33.594Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

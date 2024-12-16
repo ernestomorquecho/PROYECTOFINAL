@@ -73,7 +73,7 @@ public class GeneradorDeTickets
             documento.Add(new Paragraph($"TOTAL: ${totalAPagar}", tituloFont) { Alignment = Element.ALIGN_RIGHT });
             documento.Add(new Paragraph($"INTERESES (6%): ${interes}", tituloFont) { Alignment = Element.ALIGN_RIGHT });
             PagoFinal = (float)(totalAPagar + interes);
-            documento.Add(new Paragraph($"TOTAL A PAGAR: ${totalAPagar}", tituloFont) { Alignment = Element.ALIGN_RIGHT });
+            documento.Add(new Paragraph($"TOTAL A PAGAR: ${PagoFinal}", tituloFont) { Alignment = Element.ALIGN_RIGHT });
 
             // Un mensaje de despedida para que se vea bonito
             documento.Add(new Paragraph("\nGracias por su compra!", textoFont) { Alignment = Element.ALIGN_CENTER });

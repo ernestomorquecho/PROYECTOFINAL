@@ -23,6 +23,7 @@ namespace WinFormsProyectoFinal
             InitializeComponent();
             conexionBD = new ConexionBD();
             usuario = user;
+            lblUser.Text = usuario;
         }
 
         private void CargaProductos()
@@ -137,24 +138,42 @@ namespace WinFormsProyectoFinal
             MessageBox.Show($"Productos en la lista: {Compra.Count}", "Compra");
             int contador = 1;
             foreach (var compras in Compra)
-            {
-                consulta = "INSERT INTO ventas (id, Producto, Usuario_Compra, CantidadCompra, PrecioUnitario) VALUES (@id, @Producto, @Usuario_Compra, @CantidadCompra, @PrecioUnitario)";
+            {   
+                //Query de Venta
+                consulta = "INSERT INTO ventas (Producto, Usuario_Compra, CantidadCompra, PrecioUnitario) VALUES (@Producto, @Usuario_Compra, @CantidadCompra, @PrecioUnitario)";
                 MySqlCommand comando = new MySqlCommand(consulta, conexion);
-                comando.Parameters.AddWithValue("@id", compras.IdCompra);
                 comando.Parameters.AddWithValue("@Producto", compras.Producto);
                 comando.Parameters.AddWithValue("@Usuario_Compra", compras.Usuario);
                 comando.Parameters.AddWithValue("@CantidadCompra", compras.Cantidad);
                 comando.Parameters.AddWithValue("@PrecioUnitario", compras.Precio);
                 int res = comando.ExecuteNonQuery();
-                if (res > 0)
+
+                //Query para eliminar los articulos que se compraron de la tabla productos
+                string query = "UPDATE productos SET existencias = existencias - @cantidadVendida WHERE id = @idProducto;";
+                MySqlCommand actualiza = new MySqlCommand(query, conexion);
+                int idProducto = compras.IdCompra;
+                actualiza.Parameters.AddWithValue("@cantidadVendida", compras.Cantidad);
+                actualiza.Parameters.AddWithValue("@idProducto", compras.IdCompra);
+                int resp = actualiza.ExecuteNonQuery();
+
+                //Query para actualizar montos en tabla de usuarios
+                string query2 = "UPDATE cuentas SET Monto = Monto + @cantidadVendida WHERE Nombre = @Usuario_Compra;";
+                MySqlCommand actualiza2 = new MySqlCommand(query2, conexion);
+                int cantidadVendida = compras.Cantidad * compras.Precio;
+                actualiza2.Parameters.AddWithValue("@cantidadVendida", cantidadVendida);
+                actualiza2.Parameters.AddWithValue("@Usuario_Compra", compras.Usuario);
+                int resp2 = actualiza2.ExecuteNonQuery();
+
+                //Si los tres querys fueron ejecutados, damos un mensaje de confirmación
+                if (res > 0 && resp>0 && resp2>0)
                 {
-                    MessageBox.Show("Compra exitosa!");
-                    
+                    MessageBox.Show("Venta de primer producto exitosa!");
                 }
                 else
                 {
                     MessageBox.Show("Ha ocurrido un error!");
                 }
+                contador++;
             }
             GeneradorDeTickets.GenerarPDF(Compra, usuario);
         }

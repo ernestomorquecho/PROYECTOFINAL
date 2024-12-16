@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinFormsAppIdeaProy;
 using MySql.Data.MySqlClient;
+using System.Media;
 
 namespace WinFormsProyectoFinal
 {
@@ -18,6 +19,7 @@ namespace WinFormsProyectoFinal
         {
             InitializeComponent();
         }
+
 
         /*
         private void MostrarFormularioUsuario(string usuario)
@@ -150,5 +152,25 @@ namespace WinFormsProyectoFinal
             }
         }
 
+        private void btnReproducir_Click(object sender, EventArgs e)
+        {
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/alons/OneDrive/Documentos/Recursamiento/ProyectoFinal/Rolita.wav";
+            Sonido.Play();
+        }
+
+        private void btnPausa_Click(object sender, EventArgs e)
+        {
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/alons/OneDrive/Documentos/Recursamiento/ProyectoFinal/Rolita.wav";
+            Sonido.Stop();
+        }
+
+        private void horaFecha_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = DateTime.Now.ToLongTimeString();
+            lblFecha.Text = DateTime.Now.ToShortDateString();
+
+        }
     }
 }

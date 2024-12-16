@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\alons\\onedrive\\documentos\\recursamiento\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\formadmin1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\formadmin1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\alons\\onedrive\\documentos\\recursamiento\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\entradasistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\entradasistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\alons\\onedrive\\documentos\\recursamiento\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\formadmin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\formadmin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\alons\\onedrive\\documentos\\recursamiento\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\formadmin1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\formadmin1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\alons\\onedrive\\documentos\\recursamiento\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\formadmin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\formadmin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\winformsproyectofinal\\entradasistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\entradasistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\alons\\onedrive\\documentos\\recursamiento\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\winformsproyectofinal\\formmodificaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\formmodificaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\alons\\onedrive\\documentos\\recursamiento\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\entradasistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\entradasistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\winformsproyectofinal\\entradasistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\entradasistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\winformsproyectofinal\\portadaproyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -74,8 +74,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormAdmin1.cs",
+              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.cs",
+              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\FormAdmin1.cs",
+              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.cs",
+              "RelativeToolTip": "WinFormsProyectoFinal\\FormAdmin1.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAawDQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:16:58.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductosTienda.cs",
+              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ProductosTienda.cs",
+              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\ProductosTienda.cs",
+              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ProductosTienda.cs",
+              "RelativeToolTip": "WinFormsProyectoFinal\\ProductosTienda.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T02:03:17.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConexionBD.cs",
+              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ConexionBD.cs",
+              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\ConexionBD.cs",
+              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ConexionBD.cs",
+              "RelativeToolTip": "WinFormsProyectoFinal\\ConexionBD.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T00:08:01.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EntradaSistema.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\EntradaSistema.cs",
+              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\EntradaSistema.cs",
+              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\EntradaSistema.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WinFormsProyectoFinal\\EntradaSistema.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T22:14:51.654Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EntradaSistema.cs",
+              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\EntradaSistema.cs",
+              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\EntradaSistema.cs",
+              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\EntradaSistema.cs",
+              "RelativeToolTip": "WinFormsProyectoFinal\\EntradaSistema.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAtwJ0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:28:13.911Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -90,44 +152,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FormAdmin1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsProyectoFinal\\FormAdmin1.Designer.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.Designer.cs*",
-              "RelativeToolTip": "WinFormsProyectoFinal\\FormAdmin1.Designer.cs*",
-              "ViewState": "AgIAAMcBAAAAAAAAAAAAACMCAAAvAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.Designer.cs",
+              "RelativeToolTip": "WinFormsProyectoFinal\\FormAdmin1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T04:03:26.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductoInfo.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ProductoInfo.cs",
-              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\ProductoInfo.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ProductoInfo.cs",
-              "RelativeToolTip": "WinFormsProyectoFinal\\ProductoInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:04:34.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormAdmin1.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.cs",
-              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\FormAdmin1.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.cs",
-              "RelativeToolTip": "WinFormsProyectoFinal\\FormAdmin1.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAawDQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T02:16:58.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "PortadaProyecto.cs",
               "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\PortadaProyecto.cs",
               "RelativeDocumentMoniker": "WinFormsProyectoFinal\\PortadaProyecto.cs",
@@ -140,40 +178,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductosTienda.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ProductosTienda.cs",
-              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\ProductosTienda.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ProductosTienda.cs",
-              "RelativeToolTip": "WinFormsProyectoFinal\\ProductosTienda.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ProductoInfo.cs",
+              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ProductoInfo.cs",
+              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\ProductoInfo.cs",
+              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ProductoInfo.cs",
+              "RelativeToolTip": "WinFormsProyectoFinal\\ProductoInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T02:03:17.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConexionBD.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ConexionBD.cs",
-              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\ConexionBD.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\ConexionBD.cs",
-              "RelativeToolTip": "WinFormsProyectoFinal\\ConexionBD.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T00:08:01.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EntradaSistema.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\EntradaSistema.cs",
-              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\EntradaSistema.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\EntradaSistema.cs",
-              "RelativeToolTip": "WinFormsProyectoFinal\\EntradaSistema.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAuwGIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T19:28:13.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T19:04:34.622Z"
             },
             {
               "$type": "Document",
@@ -203,34 +216,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EntradaSistema.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\EntradaSistema.cs",
-              "RelativeDocumentMoniker": "WinFormsProyectoFinal\\EntradaSistema.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\EntradaSistema.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WinFormsProyectoFinal\\EntradaSistema.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T22:14:51.654Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "PortadaProyecto.cs [Dise\u00F1o]",
+              "Title": "PortadaProyecto.cs [Design]",
               "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\PortadaProyecto.cs",
               "RelativeDocumentMoniker": "WinFormsProyectoFinal\\PortadaProyecto.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\PortadaProyecto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WinFormsProyectoFinal\\PortadaProyecto.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\PortadaProyecto.cs [Design]",
+              "RelativeToolTip": "WinFormsProyectoFinal\\PortadaProyecto.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T21:28:25.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormModificaProducto.cs [Dise\u00F1o]",
+              "DocumentIndex": 9,
+              "Title": "FormModificaProducto.cs [Design]",
               "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormModificaProducto.cs",
               "RelativeDocumentMoniker": "WinFormsProyectoFinal\\FormModificaProducto.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormModificaProducto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WinFormsProyectoFinal\\FormModificaProducto.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormModificaProducto.cs [Design]",
+              "RelativeToolTip": "WinFormsProyectoFinal\\FormModificaProducto.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T02:19:37.539Z"
             },
@@ -259,11 +261,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "FormSubirPorducto.cs [Dise\u00F1o]",
+              "Title": "FormSubirPorducto.cs [Design]",
               "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormSubirPorducto.cs",
               "RelativeDocumentMoniker": "WinFormsProyectoFinal\\FormSubirPorducto.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormSubirPorducto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WinFormsProyectoFinal\\FormSubirPorducto.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormSubirPorducto.cs [Design]",
+              "RelativeToolTip": "WinFormsProyectoFinal\\FormSubirPorducto.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T02:12:23.856Z"
             }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAdmin1));
             pictureBoxProd1 = new PictureBox();
             pictureBoxProd2 = new PictureBox();
@@ -64,6 +65,7 @@
             label2 = new Label();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            imageList1 = new ImageList(components);
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProd3).BeginInit();
@@ -81,8 +83,8 @@
             // 
             pictureBoxProd1.BackColor = SystemColors.ControlLight;
             pictureBoxProd1.BorderStyle = BorderStyle.Fixed3D;
-            pictureBoxProd1.Image = WinFormsProyectoFinal.Properties.Resources.Libreta;
-            pictureBoxProd1.Location = new Point(306, 625);
+            pictureBoxProd1.Image = WinFormsProyectoFinal.Properties.Resources.pencil;
+            pictureBoxProd1.Location = new Point(300, 121);
             pictureBoxProd1.Margin = new Padding(3, 5, 3, 5);
             pictureBoxProd1.Name = "pictureBoxProd1";
             pictureBoxProd1.Size = new Size(179, 145);
@@ -94,11 +96,11 @@
             // 
             pictureBoxProd2.BackColor = SystemColors.ControlLight;
             pictureBoxProd2.BorderStyle = BorderStyle.Fixed3D;
-            pictureBoxProd2.Image = WinFormsProyectoFinal.Properties.Resources.pencil;
-            pictureBoxProd2.Location = new Point(302, 115);
+            pictureBoxProd2.Image = WinFormsProyectoFinal.Properties.Resources.pluma;
+            pictureBoxProd2.Location = new Point(307, 365);
             pictureBoxProd2.Margin = new Padding(3, 5, 3, 5);
             pictureBoxProd2.Name = "pictureBoxProd2";
-            pictureBoxProd2.Size = new Size(183, 151);
+            pictureBoxProd2.Size = new Size(183, 154);
             pictureBoxProd2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxProd2.TabIndex = 2;
             pictureBoxProd2.TabStop = false;
@@ -107,11 +109,11 @@
             // 
             pictureBoxProd3.BackColor = SystemColors.ControlLight;
             pictureBoxProd3.BorderStyle = BorderStyle.Fixed3D;
-            pictureBoxProd3.Image = WinFormsProyectoFinal.Properties.Resources.pluma;
-            pictureBoxProd3.Location = new Point(307, 365);
+            pictureBoxProd3.Image = WinFormsProyectoFinal.Properties.Resources.Libreta;
+            pictureBoxProd3.Location = new Point(310, 625);
             pictureBoxProd3.Margin = new Padding(3, 5, 3, 5);
             pictureBoxProd3.Name = "pictureBoxProd3";
-            pictureBoxProd3.Size = new Size(178, 154);
+            pictureBoxProd3.Size = new Size(178, 145);
             pictureBoxProd3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxProd3.TabIndex = 3;
             pictureBoxProd3.TabStop = false;
@@ -274,7 +276,7 @@
             buttonAnadir.FlatStyle = FlatStyle.Flat;
             buttonAnadir.Font = new Font("Tahoma", 12F);
             buttonAnadir.ForeColor = SystemColors.ButtonHighlight;
-            buttonAnadir.Location = new Point(78, 256);
+            buttonAnadir.Location = new Point(67, 252);
             buttonAnadir.Margin = new Padding(3, 5, 3, 5);
             buttonAnadir.Name = "buttonAnadir";
             buttonAnadir.Size = new Size(160, 59);
@@ -400,7 +402,7 @@
             buttonEliminar.FlatStyle = FlatStyle.Flat;
             buttonEliminar.Font = new Font("Tahoma", 12F);
             buttonEliminar.ForeColor = SystemColors.ButtonHighlight;
-            buttonEliminar.Location = new Point(78, 474);
+            buttonEliminar.Location = new Point(67, 470);
             buttonEliminar.Margin = new Padding(3, 5, 3, 5);
             buttonEliminar.Name = "buttonEliminar";
             buttonEliminar.Size = new Size(160, 59);
@@ -416,7 +418,7 @@
             buttonModificar.FlatStyle = FlatStyle.Flat;
             buttonModificar.Font = new Font("Tahoma", 12F);
             buttonModificar.ForeColor = SystemColors.ButtonHighlight;
-            buttonModificar.Location = new Point(78, 365);
+            buttonModificar.Location = new Point(67, 361);
             buttonModificar.Margin = new Padding(3, 5, 3, 5);
             buttonModificar.Name = "buttonModificar";
             buttonModificar.Size = new Size(158, 59);
@@ -539,6 +541,12 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageSize = new Size(16, 16);
+            imageList1.TransparentColor = Color.Transparent;
+            // 
             // FormAdmin1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -603,5 +611,6 @@
         private PictureBox pictureBox1;
         private Label label1;
         private Label label2;
+        private ImageList imageList1;
     }
 }

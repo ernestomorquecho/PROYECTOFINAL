@@ -79,8 +79,5 @@ C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoF
 C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinFormsProyectoFinal.csproj.AssemblyReference.cache
 C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\obj\Debug\net8.0-windows\WinForms.353A6738.Up2Date
-C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\LiveCharts.dll
-C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\LiveCharts.WinForms.dll
-C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
 C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\OxyPlot.dll
 C:\Users\alons\OneDrive\Documentos\Recursamiento\ProyectoFinal\WinFormsProyectoFinal\WinFormsProyectoFinal\bin\Debug\net8.0-windows\OxyPlot.WindowsForms.dll

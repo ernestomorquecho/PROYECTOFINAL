@@ -63,6 +63,16 @@ namespace WinFormsProyectoFinal.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Libreta {
+            get {
+                object obj = ResourceManager.GetObject("Libreta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LogoOfficetemas {
             get {
                 object obj = ResourceManager.GetObject("LogoOfficetemas", resourceCulture);
@@ -76,6 +86,26 @@ namespace WinFormsProyectoFinal.Properties {
         internal static System.Drawing.Bitmap LogoUAA {
             get {
                 object obj = ResourceManager.GetObject("LogoUAA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pencil {
+            get {
+                object obj = ResourceManager.GetObject("pencil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pluma {
+            get {
+                object obj = ResourceManager.GetObject("pluma", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

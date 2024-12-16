@@ -63,6 +63,36 @@ namespace WinFormsProyectoFinal.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bloc {
+            get {
+                object obj = ResourceManager.GetObject("bloc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap clips {
+            get {
+                object obj = ResourceManager.GetObject("clips", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Folders {
+            get {
+                object obj = ResourceManager.GetObject("Folders", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Libreta {
             get {
                 object obj = ResourceManager.GetObject("Libreta", resourceCulture);
@@ -103,9 +133,29 @@ namespace WinFormsProyectoFinal.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Pintarron {
+            get {
+                object obj = ResourceManager.GetObject("Pintarron", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pluma {
             get {
                 object obj = ResourceManager.GetObject("pluma", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plumones {
+            get {
+                object obj = ResourceManager.GetObject("plumones", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

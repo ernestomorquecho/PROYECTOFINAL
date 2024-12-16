@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\formadmin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|c:\\users\\alons\\onedrive\\documentos\\recursamiento\\proyectofinal\\winformsproyectofinal\\winformsproyectofinal\\formadmin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\winformsproyectofinal\\formadmin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{51EEC0E4-6D07-4328-B145-D8DE81E01661}|WinFormsProyectoFinal\\WinFormsProyectoFinal.csproj|solutionrelative:winformsproyectofinal\\formadmin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -94,9 +94,9 @@
               "Title": "FormAdmin1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsProyectoFinal\\FormAdmin1.Designer.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.Designer.cs*",
-              "RelativeToolTip": "WinFormsProyectoFinal\\FormAdmin1.Designer.cs*",
-              "ViewState": "AgIAAEkCAAAAAAAAAAAlwA8BAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.Designer.cs",
+              "RelativeToolTip": "WinFormsProyectoFinal\\FormAdmin1.Designer.cs",
+              "ViewState": "AgIAAFICAAAAAAAAAAAlwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T04:03:26.852Z",
               "EditorCaption": ""
@@ -111,8 +111,7 @@
               "RelativeToolTip": "WinFormsProyectoFinal\\ProductoInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:04:34.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T19:04:34.622Z"
             },
             {
               "$type": "Document",
@@ -122,7 +121,7 @@
               "RelativeDocumentMoniker": "WinFormsProyectoFinal\\FormAdmin1.cs",
               "ToolTip": "C:\\Users\\alons\\OneDrive\\Documentos\\Recursamiento\\ProyectoFinal\\WinFormsProyectoFinal\\WinFormsProyectoFinal\\FormAdmin1.cs*",
               "RelativeToolTip": "WinFormsProyectoFinal\\FormAdmin1.cs*",
-              "ViewState": "AgIAADkBAAAAAAAAAIAywEYBAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAFsBAAAAAAAAAAD4v24BAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T02:16:58.639Z",
               "EditorCaption": ""
@@ -150,8 +149,7 @@
               "RelativeToolTip": "WinFormsProyectoFinal\\ProductosTienda.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T02:03:17.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T02:03:17.686Z"
             },
             {
               "$type": "Document",
@@ -163,8 +161,7 @@
               "RelativeToolTip": "WinFormsProyectoFinal\\ConexionBD.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T00:08:01.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T00:08:01.739Z"
             },
             {
               "$type": "Document",

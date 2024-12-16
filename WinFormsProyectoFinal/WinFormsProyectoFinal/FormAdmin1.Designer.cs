@@ -82,10 +82,10 @@
             pictureBoxProd1.BackColor = SystemColors.ControlLight;
             pictureBoxProd1.BorderStyle = BorderStyle.Fixed3D;
             pictureBoxProd1.Image = WinFormsProyectoFinal.Properties.Resources.Libreta;
-            pictureBoxProd1.Location = new Point(762, 121);
+            pictureBoxProd1.Location = new Point(298, 523);
             pictureBoxProd1.Margin = new Padding(3, 4, 3, 4);
             pictureBoxProd1.Name = "pictureBoxProd1";
-            pictureBoxProd1.Size = new Size(160, 75);
+            pictureBoxProd1.Size = new Size(160, 119);
             pictureBoxProd1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxProd1.TabIndex = 1;
             pictureBoxProd1.TabStop = false;
@@ -95,10 +95,10 @@
             pictureBoxProd2.BackColor = SystemColors.ControlLight;
             pictureBoxProd2.BorderStyle = BorderStyle.Fixed3D;
             pictureBoxProd2.Image = WinFormsProyectoFinal.Properties.Resources.pencil;
-            pictureBoxProd2.Location = new Point(241, 121);
+            pictureBoxProd2.Location = new Point(298, 120);
             pictureBoxProd2.Margin = new Padding(3, 4, 3, 4);
             pictureBoxProd2.Name = "pictureBoxProd2";
-            pictureBoxProd2.Size = new Size(160, 75);
+            pictureBoxProd2.Size = new Size(160, 119);
             pictureBoxProd2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxProd2.TabIndex = 2;
             pictureBoxProd2.TabStop = false;
@@ -108,10 +108,10 @@
             pictureBoxProd3.BackColor = SystemColors.ControlLight;
             pictureBoxProd3.BorderStyle = BorderStyle.Fixed3D;
             pictureBoxProd3.Image = WinFormsProyectoFinal.Properties.Resources.pluma;
-            pictureBoxProd3.Location = new Point(511, 121);
+            pictureBoxProd3.Location = new Point(298, 323);
             pictureBoxProd3.Margin = new Padding(3, 4, 3, 4);
             pictureBoxProd3.Name = "pictureBoxProd3";
-            pictureBoxProd3.Size = new Size(156, 75);
+            pictureBoxProd3.Size = new Size(156, 119);
             pictureBoxProd3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxProd3.TabIndex = 3;
             pictureBoxProd3.TabStop = false;
@@ -120,10 +120,12 @@
             // 
             pictureBoxProd4.BackColor = SystemColors.ControlLight;
             pictureBoxProd4.BorderStyle = BorderStyle.Fixed3D;
-            pictureBoxProd4.Location = new Point(1005, 121);
+            pictureBoxProd4.Image = WinFormsProyectoFinal.Properties.Resources.bloc;
+            pictureBoxProd4.Location = new Point(546, 120);
             pictureBoxProd4.Margin = new Padding(3, 4, 3, 4);
             pictureBoxProd4.Name = "pictureBoxProd4";
-            pictureBoxProd4.Size = new Size(160, 75);
+            pictureBoxProd4.Size = new Size(160, 119);
+            pictureBoxProd4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxProd4.TabIndex = 4;
             pictureBoxProd4.TabStop = false;
             // 
@@ -131,10 +133,12 @@
             // 
             pictureBoxProd5.BackColor = SystemColors.ControlLight;
             pictureBoxProd5.BorderStyle = BorderStyle.Fixed3D;
-            pictureBoxProd5.Location = new Point(241, 309);
+            pictureBoxProd5.Image = WinFormsProyectoFinal.Properties.Resources.clips;
+            pictureBoxProd5.Location = new Point(543, 318);
             pictureBoxProd5.Margin = new Padding(3, 4, 3, 4);
             pictureBoxProd5.Name = "pictureBoxProd5";
-            pictureBoxProd5.Size = new Size(163, 75);
+            pictureBoxProd5.Size = new Size(163, 124);
+            pictureBoxProd5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxProd5.TabIndex = 5;
             pictureBoxProd5.TabStop = false;
             // 
@@ -142,10 +146,12 @@
             // 
             pictureBoxProd6.BackColor = SystemColors.ControlLight;
             pictureBoxProd6.BorderStyle = BorderStyle.Fixed3D;
-            pictureBoxProd6.Location = new Point(511, 309);
+            pictureBoxProd6.Image = WinFormsProyectoFinal.Properties.Resources.plumones;
+            pictureBoxProd6.Location = new Point(546, 523);
             pictureBoxProd6.Margin = new Padding(3, 4, 3, 4);
             pictureBoxProd6.Name = "pictureBoxProd6";
-            pictureBoxProd6.Size = new Size(160, 75);
+            pictureBoxProd6.Size = new Size(160, 124);
+            pictureBoxProd6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxProd6.TabIndex = 6;
             pictureBoxProd6.TabStop = false;
             // 
@@ -153,10 +159,12 @@
             // 
             pictureBoxProd7.BackColor = SystemColors.ControlLight;
             pictureBoxProd7.BorderStyle = BorderStyle.Fixed3D;
-            pictureBoxProd7.Location = new Point(762, 309);
+            pictureBoxProd7.Image = WinFormsProyectoFinal.Properties.Resources.Folders;
+            pictureBoxProd7.Location = new Point(781, 120);
             pictureBoxProd7.Margin = new Padding(3, 4, 3, 4);
             pictureBoxProd7.Name = "pictureBoxProd7";
-            pictureBoxProd7.Size = new Size(160, 75);
+            pictureBoxProd7.Size = new Size(160, 119);
+            pictureBoxProd7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxProd7.TabIndex = 7;
             pictureBoxProd7.TabStop = false;
             // 
@@ -164,16 +172,18 @@
             // 
             pictureBoxProd8.BackColor = SystemColors.ControlLight;
             pictureBoxProd8.BorderStyle = BorderStyle.Fixed3D;
-            pictureBoxProd8.Location = new Point(1005, 309);
+            pictureBoxProd8.Image = WinFormsProyectoFinal.Properties.Resources.Pintarron;
+            pictureBoxProd8.Location = new Point(776, 318);
             pictureBoxProd8.Margin = new Padding(3, 4, 3, 4);
             pictureBoxProd8.Name = "pictureBoxProd8";
-            pictureBoxProd8.Size = new Size(166, 75);
+            pictureBoxProd8.Size = new Size(166, 124);
+            pictureBoxProd8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxProd8.TabIndex = 8;
             pictureBoxProd8.TabStop = false;
             // 
             // button1
             // 
-            button1.Location = new Point(241, 204);
+            button1.Location = new Point(298, 247);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(160, 31);
@@ -184,7 +194,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(511, 204);
+            button2.Location = new Point(298, 450);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(160, 31);
@@ -195,7 +205,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(762, 204);
+            button3.Location = new Point(298, 651);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(160, 31);
@@ -206,7 +216,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(1005, 205);
+            button4.Location = new Point(546, 248);
             button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
             button4.Size = new Size(160, 31);
@@ -217,7 +227,7 @@
             // 
             // button5
             // 
-            button5.Location = new Point(241, 393);
+            button5.Location = new Point(543, 450);
             button5.Margin = new Padding(3, 4, 3, 4);
             button5.Name = "button5";
             button5.Size = new Size(163, 31);
@@ -228,7 +238,7 @@
             // 
             // button6
             // 
-            button6.Location = new Point(511, 392);
+            button6.Location = new Point(546, 655);
             button6.Margin = new Padding(3, 4, 3, 4);
             button6.Name = "button6";
             button6.Size = new Size(160, 31);
@@ -239,10 +249,10 @@
             // 
             // button7
             // 
-            button7.Location = new Point(762, 392);
+            button7.Location = new Point(781, 247);
             button7.Margin = new Padding(3, 4, 3, 4);
             button7.Name = "button7";
-            button7.Size = new Size(161, 31);
+            button7.Size = new Size(161, 32);
             button7.TabIndex = 16;
             button7.Text = "Mostrar datos";
             button7.UseVisualStyleBackColor = true;
@@ -250,7 +260,7 @@
             // 
             // button8
             // 
-            button8.Location = new Point(1005, 392);
+            button8.Location = new Point(776, 449);
             button8.Margin = new Padding(3, 4, 3, 4);
             button8.Name = "button8";
             button8.Size = new Size(167, 31);
@@ -264,14 +274,15 @@
             buttonAnadir.FlatStyle = FlatStyle.Flat;
             buttonAnadir.Font = new Font("Tahoma", 12F);
             buttonAnadir.ForeColor = SystemColors.ButtonHighlight;
-            buttonAnadir.Location = new Point(13, 140);
+            buttonAnadir.Location = new Point(78, 255);
             buttonAnadir.Margin = new Padding(3, 4, 3, 4);
             buttonAnadir.Name = "buttonAnadir";
             buttonAnadir.Size = new Size(143, 56);
             buttonAnadir.TabIndex = 19;
             buttonAnadir.Text = "Añadir";
             buttonAnadir.UseVisualStyleBackColor = true;
-            buttonAnadir.MouseEnter += buttonModificar_MouseEnter;
+            buttonAnadir.MouseEnter += buttonAnadir_MouseEnter;
+            buttonAnadir.MouseLeave += buttonAnadir_MouseLeave;
             // 
             // labelNomProd1
             // 
@@ -279,12 +290,11 @@
             labelNomProd1.BackColor = Color.FromArgb(90, 90, 90);
             labelNomProd1.Font = new Font("Tahoma", 10.2F);
             labelNomProd1.ForeColor = SystemColors.ButtonHighlight;
-            labelNomProd1.Location = new Point(245, 89);
+            labelNomProd1.Location = new Point(302, 88);
             labelNomProd1.Name = "labelNomProd1";
             labelNomProd1.Size = new Size(89, 21);
             labelNomProd1.TabIndex = 21;
             labelNomProd1.Text = "Producto 1";
-            labelNomProd1.Click += labelNomProd1_Click;
             // 
             // labelNomProd2
             // 
@@ -292,7 +302,7 @@
             labelNomProd2.BackColor = Color.FromArgb(90, 90, 90);
             labelNomProd2.Font = new Font("Tahoma", 10.2F);
             labelNomProd2.ForeColor = SystemColors.ButtonHighlight;
-            labelNomProd2.Location = new Point(511, 89);
+            labelNomProd2.Location = new Point(298, 291);
             labelNomProd2.Name = "labelNomProd2";
             labelNomProd2.Size = new Size(89, 21);
             labelNomProd2.TabIndex = 22;
@@ -304,7 +314,7 @@
             labelNomProd3.BackColor = Color.FromArgb(90, 90, 90);
             labelNomProd3.Font = new Font("Tahoma", 10.2F);
             labelNomProd3.ForeColor = SystemColors.ButtonHighlight;
-            labelNomProd3.Location = new Point(766, 89);
+            labelNomProd3.Location = new Point(302, 491);
             labelNomProd3.Name = "labelNomProd3";
             labelNomProd3.Size = new Size(89, 21);
             labelNomProd3.TabIndex = 23;
@@ -316,7 +326,7 @@
             labelNomProd4.BackColor = Color.FromArgb(90, 90, 90);
             labelNomProd4.Font = new Font("Tahoma", 10.2F);
             labelNomProd4.ForeColor = SystemColors.ButtonHighlight;
-            labelNomProd4.Location = new Point(1005, 89);
+            labelNomProd4.Location = new Point(546, 88);
             labelNomProd4.Name = "labelNomProd4";
             labelNomProd4.Size = new Size(89, 21);
             labelNomProd4.TabIndex = 24;
@@ -328,7 +338,7 @@
             labelNomProd5.BackColor = Color.FromArgb(90, 90, 90);
             labelNomProd5.Font = new Font("Tahoma", 10.2F);
             labelNomProd5.ForeColor = SystemColors.ButtonHighlight;
-            labelNomProd5.Location = new Point(241, 275);
+            labelNomProd5.Location = new Point(543, 293);
             labelNomProd5.Name = "labelNomProd5";
             labelNomProd5.Size = new Size(89, 21);
             labelNomProd5.TabIndex = 25;
@@ -340,7 +350,7 @@
             labelNomProd6.BackColor = Color.FromArgb(90, 90, 90);
             labelNomProd6.Font = new Font("Tahoma", 10.2F);
             labelNomProd6.ForeColor = SystemColors.ButtonHighlight;
-            labelNomProd6.Location = new Point(511, 274);
+            labelNomProd6.Location = new Point(546, 497);
             labelNomProd6.Name = "labelNomProd6";
             labelNomProd6.Size = new Size(89, 21);
             labelNomProd6.TabIndex = 26;
@@ -352,7 +362,7 @@
             labelNomProd7.BackColor = Color.FromArgb(90, 90, 90);
             labelNomProd7.Font = new Font("Tahoma", 10.2F);
             labelNomProd7.ForeColor = SystemColors.ButtonHighlight;
-            labelNomProd7.Location = new Point(762, 275);
+            labelNomProd7.Location = new Point(781, 95);
             labelNomProd7.Name = "labelNomProd7";
             labelNomProd7.Size = new Size(89, 21);
             labelNomProd7.TabIndex = 27;
@@ -364,7 +374,7 @@
             labelNomProd8.BackColor = Color.FromArgb(90, 90, 90);
             labelNomProd8.Font = new Font("Tahoma", 10.2F);
             labelNomProd8.ForeColor = SystemColors.ButtonHighlight;
-            labelNomProd8.Location = new Point(1005, 275);
+            labelNomProd8.Location = new Point(776, 293);
             labelNomProd8.Name = "labelNomProd8";
             labelNomProd8.RightToLeft = RightToLeft.No;
             labelNomProd8.Size = new Size(89, 21);
@@ -390,7 +400,7 @@
             buttonEliminar.FlatStyle = FlatStyle.Flat;
             buttonEliminar.Font = new Font("Tahoma", 12F);
             buttonEliminar.ForeColor = SystemColors.ButtonHighlight;
-            buttonEliminar.Location = new Point(13, 309);
+            buttonEliminar.Location = new Point(78, 424);
             buttonEliminar.Margin = new Padding(3, 4, 3, 4);
             buttonEliminar.Name = "buttonEliminar";
             buttonEliminar.Size = new Size(143, 56);
@@ -398,14 +408,15 @@
             buttonEliminar.Text = "Eliminar";
             buttonEliminar.UseVisualStyleBackColor = true;
             buttonEliminar.Click += buttonEliminar_Click;
-            buttonEliminar.MouseEnter += buttonModificar_MouseEnter;
+            buttonEliminar.MouseEnter += buttonEliminar_MouseEnter;
+            buttonEliminar.MouseLeave += buttonEliminar_MouseLeave;
             // 
             // buttonModificar
             // 
             buttonModificar.FlatStyle = FlatStyle.Flat;
             buttonModificar.Font = new Font("Tahoma", 12F);
             buttonModificar.ForeColor = SystemColors.ButtonHighlight;
-            buttonModificar.Location = new Point(13, 223);
+            buttonModificar.Location = new Point(78, 338);
             buttonModificar.Margin = new Padding(3, 4, 3, 4);
             buttonModificar.Name = "buttonModificar";
             buttonModificar.Size = new Size(141, 56);
@@ -413,6 +424,7 @@
             buttonModificar.Text = "Modificar";
             buttonModificar.UseVisualStyleBackColor = true;
             buttonModificar.MouseEnter += buttonModificar_MouseEnter;
+            buttonModificar.MouseLeave += buttonModificar_MouseLeave;
             // 
             // btnVentas
             // 
@@ -481,7 +493,7 @@
             panel1.Controls.Add(button7);
             panel1.Location = new Point(-1, 60);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1233, 653);
+            panel1.Size = new Size(1233, 721);
             panel1.TabIndex = 37;
             // 
             // panel2
@@ -530,7 +542,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1230, 712);
+            ClientSize = new Size(1230, 780);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Margin = new Padding(3, 4, 3, 4);

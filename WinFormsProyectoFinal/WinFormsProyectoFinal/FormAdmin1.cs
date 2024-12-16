@@ -51,12 +51,6 @@ namespace WinFormsAppIdeaProy
         private void buttonModificar_Click(object sender, EventArgs e)
         {
         }
-
-        private void labelNomProd1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonEliminar_Click(object sender, EventArgs e)
         {
 
@@ -278,8 +272,12 @@ namespace WinFormsAppIdeaProy
 
         private void buttonModificar_MouseEnter(object sender, EventArgs e)
         {
-
+            buttonModificar.FlatAppearance.BorderColor = Color.Gray;
+            buttonModificar.BackColor = Color.DarkSlateGray;
+            buttonModificar.ForeColor = Color.White;
         }
+
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -326,6 +324,41 @@ namespace WinFormsAppIdeaProy
             EntradaSistema entradaSistema = new EntradaSistema();
             entradaSistema.Show();
             this.Close();
+        }
+
+        private void buttonAnadir_MouseLeave(object sender, EventArgs e)
+        {
+            buttonAnadir.FlatAppearance.BorderColor = Color.White;
+            buttonAnadir.BackColor = Color.Gray;
+            buttonAnadir.ForeColor = Color.White;
+        }
+
+        private void buttonAnadir_MouseEnter(object sender, EventArgs e)
+        {
+            buttonAnadir.FlatAppearance.BorderColor = Color.Gray;
+            buttonAnadir.BackColor = Color.DarkSlateGray;
+            buttonAnadir.ForeColor = Color.White;
+        }
+
+        private void buttonModificar_MouseLeave(object sender, EventArgs e)
+        {
+            buttonModificar.FlatAppearance.BorderColor = Color.White;
+            buttonModificar.BackColor = Color.Gray;
+            buttonModificar.ForeColor = Color.White;
+        }
+
+        private void buttonEliminar_MouseEnter(object sender, EventArgs e)
+        {
+            buttonEliminar.FlatAppearance.BorderColor = Color.Gray;
+            buttonEliminar.BackColor = Color.DarkSlateGray;
+            buttonEliminar.ForeColor = Color.White;
+        }
+
+        private void buttonEliminar_MouseLeave(object sender, EventArgs e)
+        {
+            buttonEliminar.FlatAppearance.BorderColor = Color.White;
+            buttonEliminar.BackColor = Color.Gray;
+            buttonEliminar.ForeColor = Color.White;
         }
     }
 }
